@@ -39,6 +39,7 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
 #### 1. Architecture
 
 - <strong>https://big-data.developpez.com/tutoriels/apprendre-faire-choix-architecture-big-data/<strong> Site Developpez.com, tutoriel choix d'une architecture big-data
+ - <strong>https://www.ibm.com/developerworks/library/os-twitterstorm/index.html</strong> Site IBM.com. Acteurs principaux de l'analyse de tweets en temps réels.
 
 #### 2. Guides Python pour Twitter
 
@@ -77,6 +78,13 @@ bibliographie de 3 livres avec la mise en exergue des sections qui vous semblent
 ### A4. Acteurs
 
  liste des trois grandes organisations dans le secteur de cette technique (qu’ils soient des organisme de standardisation, des communautés du logiciels libres ou des sociétés privées), on décrira chaque organisation en une dizaine de lignes et on montrera sa contribution à la technique étudiée. Au moins une des organisations doit mettre à disposition un livre blanc sur le sujet étudié
+ 
+ #### 1. Storm (Twitter)
+ #### 2. S4 (Yahoo)
+ #### 3. Hadoop (Apache)
+ #### 4. Spark (UC Berkeley & AMPLab)
+ #### 5. Disco (Nokia)
+ #### 3. HPCC (LexisNexis)
 
 ### A5. Facteurs qualité
 
