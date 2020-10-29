@@ -93,6 +93,8 @@ bibliographie de 3 livres avec la mise en exergue des sections qui vous semblent
  
  Quatres modules : Hadoop Common, Hadoop Distributed File System, Hadoop YARN, Hadoop MapReduce.
  
+ De nombreuses grandes entreprises comme Facebook, Yahoo ou bien encore Microsoft utilisent Hadoop.
+ 
  #### 4. Spark Streaming (UC Berkeley & AMPLab)
  
  Implémenté en Scala.
