@@ -80,11 +80,23 @@ bibliographie de 3 livres avec la mise en exergue des sections qui vous semblent
  liste des trois grandes organisations dans le secteur de cette technique (qu’ils soient des organisme de standardisation, des communautés du logiciels libres ou des sociétés privées), on décrira chaque organisation en une dizaine de lignes et on montrera sa contribution à la technique étudiée. Au moins une des organisations doit mettre à disposition un livre blanc sur le sujet étudié
  
  #### 1. Storm (Twitter)
+ 
+ Présenté Initialement par Nathan Marz, Storm utilise le concept du flot de données (streaming data) supposé continu. Implémenté en Clojur (Language de VM tournant sur  la JVM).
+ 
  #### 2. S4 (Yahoo)
+ 
  #### 3. Hadoop (Apache)
+ 
+  Hadoop est le maître dans l'art de l'analyse big-data. Concentrée sur le traitement par lots (batch). Les données sont introduites en entrée dans le HDFS (Hadoop file system) et ensuite réparties vers différents noeuds lors du traitement. A la fin des traitement les données sont retournées au HDFS. Le noyau de Hadoop est écrit en Java
+ 
  #### 4. Spark Streaming (UC Berkeley & AMPLab)
+ 
+ Implémenté en Scala.
+ 
  #### 5. Disco (Nokia)
+ 
  #### 6. HPCC (LexisNexis)
+ 
  #### 7. Azure stream analytics (Microsoft)
 
 ### A5. Facteurs qualité
