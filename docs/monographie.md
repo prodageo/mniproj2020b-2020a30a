@@ -103,7 +103,9 @@ Remarque : Dans le cas ou le nombre de noeud de calcul à disposition est trop b
  
  #### 4. Spark Streaming (UC Berkeley & AMPLab)
  
- Implémenté en Scala.
+Extension de l'API Spark permettant un traitement rapide, robuste à la panne et scalable. Spark utilise le principe de micro-batch (les données reçues sont divisées en mini batch RDDs) puis traité par Spark Engine pour la génération du flux de résultats en batch. Spark Streaming fait appel à DStreams qui est une séquence de RDDs représentant un flux de données continu.
+
+Spark Streaming à l'inverse de Storm qui traite les données en continue ajoute un délai entre l'arrivé d'un message et son traitement. Cependant en condition dégradée Spark assure un fonctionnement "at least once" qui assure qu'un message peut être délivré plusieur fois mais sans perte.
  
  #### 5. Disco (Nokia)
  
@@ -120,6 +122,8 @@ Remarque : Dans le cas ou le nombre de noeud de calcul à disposition est trop b
  Real-time 
  
 Massive Data : Robustness?
+
+La variété des données n'est pas un probleme ici (Seulement des msg text de maximum 140 caractères)
 
 ### A6. Indicateurs qualité
 
