@@ -21,7 +21,8 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
 
 ### A0 : Introduction.
 
- texte synthétique. On précisera notamment si ce projet a pour but d’améliorer un processus ou un produit.
+ Ce projet s'interesse aux différentes applications utilisant l'analyse de contenu textuel provenant du réseau social Twitter.
+ Le but du projet est de choisir l'une des applications et de développer/mettre en place une architecture pour rendre fonctionnel celle-ci.
  
 ### A1. Glossaire et Mots-clés.
 
