@@ -81,11 +81,13 @@ bibliographie de 3 livres avec la mise en exergue des sections qui vous semblent
  
  #### 1. Storm (Twitter)
  
- Présenté Initialement par Nathan Marz, Storm utilise le concept du flot de données (streaming data) supposé continu. Implémenté en Clojur (Language de VM tournant sur  la JVM). Storm utilise ZeroMQ pour la transmission de messages directement entre les tâches.
+ Présenté Initialement par Nathan Marz, Storm est un systeme de calcul distribué gratuit et open source. Storm utilise le concept du flot de données (streaming data) supposé continu. Implémenté en Clojur (Language de VM tournant sur  la JVM), il permet d'utiliser nimporte quel language de programmation.
  
 Le modèles Storm prends la forme d'unmodèle de traitement de flot de données. Les données sont representée par des tuples ou bien des types définis par l'utilsateur. Chaque flot est féfinis poar un ID unique utilisé pour construire la topologie des sources de données et des puits. Des connecteurs appelé Spouts aggregent le flot de données depuis les sources vers le modèle Storm. Les entités aplliquant les transformations sont appelé des Bolt et implémentent chacun une transformation sur le flot de données (MapReduce, SingleStep Function, etc...).
 
 L'une des particularités de Storm est la garantie que toutes données provenant d'une des sources sera traitée. Lorsque l'une des entrées n'a pas le temps d'être traitée elle est relancé vers l'entrée du modèle.
+
+Remarque : Dans le cas ou le nombre de noeud de calcul à disposition est trop bas, il est possible d'implementer Storm par le biens de Amazon Elastic Compute Cloud (EC2).
  
  #### 2. S4 (Yahoo)
  
