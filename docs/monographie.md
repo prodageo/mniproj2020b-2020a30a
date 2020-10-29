@@ -37,9 +37,11 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
 - <strong>twitter.com</strong> Site Officiel de twitter.
 
 #### 1. Architecture
+
 - <strong>https://big-data.developpez.com/tutoriels/apprendre-faire-choix-architecture-big-data/<strong> Site Developpez.com, tutoriel choix d'une architecture big-data
 
 #### 2. Guides Python pour Twitter
+
 - <strong>https://towardsdatascience.com/mining-twitter-data-ba4e44e6aecc</strong>, Site TowardsDataScience, Tutoriel  Python for : Authentication, Data Collection, Data Cleaning/Preprocessing, Modelling/Analysis.
 - <strong>oreilly.com/library/view/mining-the-social/9781449394752/ch01s02.html</strong> Site O'Reilly, Collectiong and Manipulating Twitter Data
 - <strong>https://www.toptal.com/python/twitter-data-mining-using-python</strong>, Site toptal.com, Tutoriel sur l'utilisation de l'API twitter avec python.
@@ -48,12 +50,28 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
 ### A3. Bibliographie
 
 ### 1. Thèses
+
+#### a. Tweet
+
+- <strong> Twitter as a Corpus for Sentiment Analysis and Opinion Mining</strong> Alexander Pak, Patrick Paroubek. 2010, LREC.
+- <strong> Measuring User Influence in Twitter: The Million Follower Fallacy</storng> M Cha, H. Haddadi, F. Benevenuto, PK. Gummadi . 2010, ICWSM
+- <strong>Predicting Elections with Twitter: What 140 Characters Reveal about Political Sentiment</strong> Andranik Tumasjan, Timm Olivier Sprenger, Philipp G. Sandner, Isabell Welpe.2010, ICWSM
+- <strong>Everyone's an influencer: quantifying influence on twitter</strong> Eytan Bakshy, Jake M. Hofman, Winter A. Mason, Duncan J. Watts, 2011, ACM
+- <strong> Sentiment Analysis of twitter data</strong> Apoorv Agarwal, Boyi Xie, Ilia Vovsha, Owen Rambow, Rebecca Passoneau, 2011, ACL
+- <strong> Twitter Sentiment Classification using Distant Supervision</strong> Alec Go, Richa Bhayani, Lei Huang. 2009, Stanford
+- <strong>Political Polarization on Twitter</strong> M.D Conover, J. Ratkiewicz, M Francisco, B Gonçalves, A Flammini, F Menczer, 2011,  AAAI
 - <strong> Hashtag Graph Based Topic Model for Tweet Mining</strong> Yuan Wang, Jie Liu, Jishi Qu, Yalou Huang, Jimeng Chen, Xia Feng. 2014, IEEE  International Conference on Data Mining
 - <strong>A Practical Approach for Content Mining of Tweets</strong> Sunmoo Yoon, Noémie Elhadad, Suzanne Bakken, 2013, American Journal of Preventive Medicine
 bibliographie de 3 livres avec la mise en exergue des sections qui vous semblent pertinentes dans la table des matières
 - <strong>Looking for the perfect tweet. The use of data mining techniques to find influencers on twitter</strong> Eva Lahuerta-Otero, Rebeca Cordero-Gutiérrez, 2016, Computers in Human Behavior
 
+#### b. Big Data
+
+- <strong> Beyond the hype: Big data concepts, methods, and analytics</strong> Amir Gandomi, Murtaza Haider. 2015. International Journal of information Management
+- <strong> Data mining with big data</strong> Xindong Wu, Xingquan Zhu, Gong-Qing Wu, Wei Ding. 2013, IEEE : Transactions on Knowledge and Data Engineering
+
 ### 2. Livres
+
 - <strong> Opinion Mining et Sentiment Analysis : Méthodes et outils</strong> Dominique Boullier, Audrey Lohard, 2012
 
 ### A4. Acteurs
