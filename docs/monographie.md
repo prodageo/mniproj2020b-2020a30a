@@ -87,7 +87,11 @@ bibliographie de 3 livres avec la mise en exergue des sections qui vous semblent
  
  #### 3. Hadoop (Apache)
  
-  Hadoop est le maître dans l'art de l'analyse big-data. Concentrée sur le traitement par lots (batch). Les données sont introduites en entrée dans le HDFS (Hadoop file system) et ensuite réparties vers différents noeuds lors du traitement. A la fin des traitement les données sont retournées au HDFS. Le noyau de Hadoop est écrit en Java
+  Créé par Doug Cutting en 2009, Hadoop est le framework maître dans l'art de l'analyse big-data. Libre, open source et écrit en Java, Hadoop permet la mise en place d'application distribuées en terme de stockage de données et de leur traitement. L'idée du framework Hadoop est de pouvoir gérer automatiquement les pannes matérielle supposées fréquentes.
+  
+  Concentrée sur le traitement par lots (batch). Les données sont introduites en entrée dans le HDFS (Hadoop distributed file system), séparées en batch et ensuite réparties vers différents noeuds ayant reçu le code à executer (MapReduce). A la fin des traitement les données sont retournées au HDFS.
+ 
+ Quatres modules : Hadoop Common, Hadoop Distributed File System, Hadoop YARN, Hadoop MapReduce.
  
  #### 4. Spark Streaming (UC Berkeley & AMPLab)
  
@@ -98,6 +102,8 @@ bibliographie de 3 livres avec la mise en exergue des sections qui vous semblent
  #### 6. HPCC (LexisNexis)
  
  #### 7. Azure stream analytics (Microsoft)
+ 
+ #### 8. Snowflake
 
 ### A5. Facteurs qualité
 
