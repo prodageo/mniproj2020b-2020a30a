@@ -52,6 +52,9 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
 bibliographie de 3 livres avec la mise en exergue des sections qui vous semblent pertinentes dans la table des matières
 - <strong>Looking for the perfect tweet. The use of data mining techniques to find influencers on twitter</strong> Eva Lahuerta-Otero, Rebeca Cordero-Gutiérrez, 2016, Computers in Human Behavior
 
+### 2. Livres
+- <strong> Opinion Mining et Sentiment Analysis : Méthodes et outils</strong> Dominique Boullier, Audrey Lohard, 2012
+
 ### A4. Acteurs
 
  liste des trois grandes organisations dans le secteur de cette technique (qu’ils soient des organisme de standardisation, des communautés du logiciels libres ou des sociétés privées), on décrira chaque organisation en une dizaine de lignes et on montrera sa contribution à la technique étudiée. Au moins une des organisations doit mettre à disposition un livre blanc sur le sujet étudié
