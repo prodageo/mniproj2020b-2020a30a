@@ -40,6 +40,7 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
 - <strong>https://big-data.developpez.com/tutoriels/apprendre-faire-choix-architecture-big-data/<strong> Site Developpez.com, tutoriel choix d'une architecture big-data
 
 #### 2. Guide python - Twitter
+- <strong>https://towardsdatascience.com/mining-twitter-data-ba4e44e6aecc</strong>, Site TowardsDataScience, Tutoriel  Python for : Authentication, Data Collection, Data Cleaning/Preprocessing, Modelling/Analysis.
 - <strong>https://www.toptal.com/python/twitter-data-mining-using-python</strong>, Site toptal.com, Tutoriel sur l'utilisation de l'API twitter avec python.
 
 ### A3. Bibliographie
