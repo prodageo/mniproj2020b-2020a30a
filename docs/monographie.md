@@ -9,7 +9,7 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
  - Code de l'alliance : 2020A30A
  - Liste des équipes
    - E11 - Blue-Bird
-     - Poulain, Thomas ({pseudo Github membre 1-1})
+     - Poulain, Thomas (tpoulain)
      - Prieur, Maxime (Todaime)
      - Quarez, Etienne (equarez)
    - E14 - {Nom équipe 2}
@@ -26,7 +26,7 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
  
 ### A1. Glossaire et Mots-clés.
 
-liste de 10 mots-clés
+#MachineLearning #IA #BigData #Tweet #Twitter #Prediction #Analyse #TextMining #NLP #DataAnalysis #
 
 ### A2. Webographie
 
