@@ -30,7 +30,7 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
  
 ### A1. Glossaire et Mots-clés.
 
-#MachineLearning #IA #BigData #Tweet #Twitter #Prediction #Analyse #TextMining #NLP #DataAnalysis #
+#MachineLearning #IA #BigData #Tweet #TextMining #NLP #DataAnalysis #Trend #OpinionMining #SentimentAnalysis
 
 ### A2. Webographie
 
