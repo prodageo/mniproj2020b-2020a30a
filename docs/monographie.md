@@ -38,7 +38,7 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
 
 #### 1. Architecture
 
-- <strong>https://big-data.developpez.com/tutoriels/apprendre-faire-choix-architecture-big-data/<strong> Site Developpez.com, tutoriel choix d'une architecture big-data
+- <strong>https://big-data.developpez.com/tutoriels/apprendre-faire-choix-architecture-big-data/</strong> Site Developpez.com, tutoriel choix d'une architecture big-data
  - <strong>https://www.ibm.com/developerworks/library/os-twitterstorm/index.html</strong> Site IBM.com. Acteurs principaux de l'analyse de tweets en temps réels.
 
 #### 2. Guides Python pour Twitter
