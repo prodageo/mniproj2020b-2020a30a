@@ -55,7 +55,7 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
 #### a. Tweet
 
 - <strong> Twitter as a Corpus for Sentiment Analysis and Opinion Mining</strong> Alexander Pak, Patrick Paroubek. 2010, LREC.
-- <strong> Measuring User Influence in Twitter: The Million Follower Fallacy</storng> M Cha, H. Haddadi, F. Benevenuto, PK. Gummadi . 2010, ICWSM
+- <strong> Measuring User Influence in Twitter: The Million Follower Fallacy</strong> M Cha, H. Haddadi, F. Benevenuto, PK. Gummadi . 2010, ICWSM
 - <strong>Predicting Elections with Twitter: What 140 Characters Reveal about Political Sentiment</strong> Andranik Tumasjan, Timm Olivier Sprenger, Philipp G. Sandner, Isabell Welpe.2010, ICWSM
 - <strong>Everyone's an influencer: quantifying influence on twitter</strong> Eytan Bakshy, Jake M. Hofman, Winter A. Mason, Duncan J. Watts, 2011, ACM
 - <strong> Sentiment Analysis of twitter data</strong> Apoorv Agarwal, Boyi Xie, Ilia Vovsha, Owen Rambow, Rebecca Passoneau, 2011, ACL
