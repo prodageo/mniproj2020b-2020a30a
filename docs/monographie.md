@@ -1,17 +1,17 @@
 ---
 consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
 ---
-# Monographie - {TITRE DU SUJET}
+# Monographie - {Big Data et tweet en temps réel}
 
 ## Cartouche
 
- - Code du sujet : nnx (nn : 2 chiffres, x : une lettre) - exemple : 60A 
- - Code de l'alliance : aaaasnnx (aaaa : année, s : saison, nnx : code du sujet) - exemple : 2019A60A
+ - Code du sujet : 30A
+ - Code de l'alliance : 2020A30A (aaaa : année, s : saison, nnx : code du sujet) - exemple : 2019A60A
  - Liste des équipes
-   - {Code équipe issu de Moodle } - {Nom équipe 1 _(if any)_}
-     - { Nom }, {prénom} ({pseudo Github membre 1-1})
-     - { Nom }, {prénom} ({pseudo Github membre 1-2})
-     - ...
+   - E11 - Blue-Bird
+     - Poulain, Thomas ({pseudo Github membre 1-1})
+     - Prieur, Maxime ({pseudo Github membre 1-2})
+     - Quarez, Etienne ()
    - {Nom équipe 2}
      - { Nom }, {prénom} ({pseudo Github membre 2-1})
      - ...
