@@ -1,7 +1,7 @@
 ---
 consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
 ---
-# Monographie - {Big Data et tweet en temps réel}
+# Monographie - Big Data et tweet en temps réel
 
 ## Cartouche
 
@@ -10,8 +10,8 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
  - Liste des équipes
    - E11 - Blue-Bird
      - Poulain, Thomas ({pseudo Github membre 1-1})
-     - Prieur, Maxime ({pseudo Github membre 1-2})
-     - Quarez, Etienne ()
+     - Prieur, Maxime (Todaime)
+     - Quarez, Etienne (equarez)
    - {Nom équipe 2}
      - { Nom }, {prénom} ({pseudo Github membre 2-1})
      - ...
