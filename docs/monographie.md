@@ -84,7 +84,8 @@ bibliographie de 3 livres avec la mise en exergue des sections qui vous semblent
  #### 3. Hadoop (Apache)
  #### 4. Spark (UC Berkeley & AMPLab)
  #### 5. Disco (Nokia)
- #### 3. HPCC (LexisNexis)
+ #### 6. HPCC (LexisNexis)
+ #### 7. Azure stream analytics (Microsoft)
 
 ### A5. Facteurs qualité
 
