@@ -82,7 +82,7 @@ bibliographie de 3 livres avec la mise en exergue des sections qui vous semblent
  #### 1. Storm (Twitter)
  #### 2. S4 (Yahoo)
  #### 3. Hadoop (Apache)
- #### 4. Spark (UC Berkeley & AMPLab)
+ #### 4. Spark Streaming (UC Berkeley & AMPLab)
  #### 5. Disco (Nokia)
  #### 6. HPCC (LexisNexis)
  #### 7. Azure stream analytics (Microsoft)
