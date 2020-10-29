@@ -47,8 +47,10 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
 ### A3. Bibliographie
 
 ### 1. Thèses
+- <strong> Hashtag Graph Based Topic Model for Tweet Mining</strong> Yuan Wang, Jie Liu, Jishi Qu, Yalou Huang, Jimeng Chen, Xia Feng. 2014, IEEE  International Conference on Data Mining
 - <strong>A Practical Approach for Content Mining of Tweets</strong> Sunmoo Yoon, Noémie Elhadad, Suzanne Bakken, 2013, American Journal of Preventive Medicine
 bibliographie de 3 livres avec la mise en exergue des sections qui vous semblent pertinentes dans la table des matières
+- <strong>Looking for the perfect tweet. The use of data mining techniques to find influencers on twitter</strong> Eva Lahuerta-Otero, Rebeca Cordero-Gutiérrez, 2016, Computers in Human Behavior
 
 ### A4. Acteurs
 
