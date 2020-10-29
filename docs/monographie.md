@@ -34,10 +34,13 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
 
 ### A2. Webographie
 
-webographie de 3 sites qualifiés
 - <strong>twitter.com</strong> Site Officiel de twitter.
--
--
+
+#### 1. Architecture
+- <strong>https://big-data.developpez.com/tutoriels/apprendre-faire-choix-architecture-big-data/<strong> Site Developpez.com, tutoriel choix d'une architecture big-data
+
+#### 2. Guide python - Twitter
+- <strong>https://www.toptal.com/python/twitter-data-mining-using-python</strong>, Site toptal.com, Tutoriel sur l'utilisation de l'API twitter avec python.
 
 ### A3. Bibliographie
 
