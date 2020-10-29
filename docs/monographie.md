@@ -81,7 +81,11 @@ bibliographie de 3 livres avec la mise en exergue des sections qui vous semblent
  
  #### 1. Storm (Twitter)
  
- Présenté Initialement par Nathan Marz, Storm utilise le concept du flot de données (streaming data) supposé continu. Implémenté en Clojur (Language de VM tournant sur  la JVM).
+ Présenté Initialement par Nathan Marz, Storm utilise le concept du flot de données (streaming data) supposé continu. Implémenté en Clojur (Language de VM tournant sur  la JVM). Storm utilise ZeroMQ pour la transmission de messages directement entre les tâches.
+ 
+Le modèles Storm prends la forme d'unmodèle de traitement de flot de données. Les données sont representée par des tuples ou bien des types définis par l'utilsateur. Chaque flot est féfinis poar un ID unique utilisé pour construire la topologie des sources de données et des puits. Des connecteurs appelé Spouts aggregent le flot de données depuis les sources vers le modèle Storm. Les entités aplliquant les transformations sont appelé des Bolt et implémentent chacun une transformation sur le flot de données (MapReduce, SingleStep Function, etc...).
+
+L'une des particularités de Storm est la garantie que toutes données provenant d'une des sources sera traitée. Lorsque l'une des entrées n'a pas le temps d'être traitée elle est relancé vers l'entrée du modèle.
  
  #### 2. S4 (Yahoo)
  
@@ -110,6 +114,10 @@ bibliographie de 3 livres avec la mise en exergue des sections qui vous semblent
 ### A5. Facteurs qualité
 
  liste de 3 sous-caractéristiques prises parmi les 21 de ISO9126 (qu’on appelle aussi critères chez McCall) auquel répond cette technique, et ce tout particulièrement dans le contexte indiqué.
+ 
+ Real-time 
+ 
+Massive Data : Robustness?
 
 ### A6. Indicateurs qualité
 
