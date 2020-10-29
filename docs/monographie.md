@@ -35,6 +35,9 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
 ### A2. Webographie
 
 webographie de 3 sites qualifiés
+- <strong>twitter.com</strong> Site Officiel de twitter.
+-
+-
 
 ### A3. Bibliographie
 
