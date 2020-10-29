@@ -12,8 +12,12 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
      - Poulain, Thomas (tpoulain)
      - Prieur, Maxime (Todaime)
      - Quarez, Etienne (equarez)
-   - E14 - {Nom équipe 2}
-     - Germain, Louis ({pseudo Github membre 2-1})
+   - E12 - {Nom équipe 2}
+     - Godey, Maël ({pseudo Github membre 2-1})
+     - Lefebvre, Clément ({pseudo Github membre 2-1})
+     - Michelet, Adrien (Adrien-Michelet)
+   - E14 - {Nom équipe 3}
+     - Germain, Louis (lgermainINSA)
      - Lenoir, Louis ({pseudo Github membre 2-1})
      - Zeghib, Amin ({pseudo Github membre 2-1})
 
