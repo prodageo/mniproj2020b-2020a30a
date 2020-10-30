@@ -77,7 +77,7 @@ bibliographie de 3 livres avec la mise en exergue des sections qui vous semblent
 
 ### A4. Acteurs
 
- liste des trois grandes organisations dans le secteur de cette technique (qu’ils soient des organisme de standardisation, des communautés du logiciels libres ou des sociétés privées), on décrira chaque organisation en une dizaine de lignes et on montrera sa contribution à la technique étudiée. Au moins une des organisations doit mettre à disposition un livre blanc sur le sujet étudié
+ <em>liste des trois grandes organisations dans le secteur de cette technique (qu’ils soient des organisme de standardisation, des communautés du logiciels libres ou des sociétés privées), on décrira chaque organisation en une dizaine de lignes et on montrera sa contribution à la technique étudiée. Au moins une des organisations doit mettre à disposition un livre blanc sur le sujet étudié</em>
  
  #### 1. Storm (Twitter)
  
