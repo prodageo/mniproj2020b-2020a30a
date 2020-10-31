@@ -119,11 +119,13 @@ Spark Streaming à l'inverse de Storm qui traite les données en continue ajoute
 
  liste de 3 sous-caractéristiques prises parmi les 21 de ISO9126 (qu’on appelle aussi critères chez McCall) auquel répond cette technique, et ce tout particulièrement dans le contexte indiqué.
  
- Real-time 
- 
-Massive Data : Robustness?
+#### 1. Efficacité en temps (Efficacité)
+lié à la contrainte de traitement en temps réel.
 
-La variété des données n'est pas un probleme ici (Seulement des msg text de maximum 140 caractères)
+#### 2. Stabilité (Maintenabilité)
+
+### 3. 
+
 
 ### A6. Indicateurs qualité
 
