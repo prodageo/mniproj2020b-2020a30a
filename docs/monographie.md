@@ -26,7 +26,7 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
 ### A0 : Introduction.
 
  Ce projet s'interesse aux différentes applications utilisant l'analyse de contenu textuel provenant du réseau social Twitter.
- Le but du projet est de choisir l'une des applications et de développer/mettre en place une architecture pour rendre celle-ci fonctionnelle.
+ Le but du projet est de développer/mettre en place une architecture permettant d'évaluer la polarité de tweets en temps réel.
  
 ### A1. Glossaire et Mots-clés.
 
@@ -124,7 +124,7 @@ lié à la contrainte de traitement en temps réel.
 
 #### 2. Stabilité (Maintenabilité)
 
-### 3. 
+#### 3. Efficacité en ressources (Efficacité)
 
 
 ### A6. Indicateurs qualité
