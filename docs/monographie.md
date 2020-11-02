@@ -20,6 +20,10 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
      - Germain, Louis (lgermainINSA)
      - Lenoir, Louis ({pseudo Github membre 2-1})
      - Zeghib, Amin ({pseudo Github membre 2-1})
+   - Exx - CasimentPasDIdee
+     - Abecassis, Zoé (lgermainINSA)
+     - Lesseure, Cassandre ({pseudo Github membre 2-1})
+     - Quéré, David (DavidQuere)
 
 ## Partie A
 
@@ -49,6 +53,8 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
 - <strong>https://www.kdnuggets.com/2016/06/mining-twitter-data-python-part-1.html</strong> Site Kdnuggets.com, Tutoriel Python pour : CollectionData, Text Pre-Processing, Term Frequencies, Term Co-occurrences, Data Visualisation Basics
 
 ### A3. Bibliographie
+
+- <strong>Big Data at Work: Dispelling the Myths, Uncovering the Opportunities</strong> - Thomas H. Davenport - 2014
 
 ### 1. Thèses
 
