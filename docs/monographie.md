@@ -21,8 +21,8 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
      - Lenoir, Louis ({pseudo Github membre 2-1})
      - Zeghib, Amin ({pseudo Github membre 2-1})
    - Exx - CasimentPasDIdee
-     - Abecassis, Zoé (lgermainINSA)
-     - Lesseure, Cassandre ({pseudo Github membre 2-1})
+     - Abecassis, Zoé (caArrive)
+     - Lesseure, Cassandre (cleseurre)
      - Quéré, David (DavidQuere)
 
 ## Partie A
@@ -55,6 +55,14 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
 ### A3. Bibliographie
 
 - <strong>Big Data at Work: Dispelling the Myths, Uncovering the Opportunities</strong> - Thomas H. Davenport - 2014
+
+- <strong>Analytics in a Big Data World: The Essential Guide to Data Science and its Applications </strong> - Bart Baesens - 2014
+
+- <strong>Sentiment Analysis: Mining Opinions, Sentiments, and Emotions</strong> -  Bing Liu - 2015
+
+
+
+
 
 ### 1. Thèses
 
