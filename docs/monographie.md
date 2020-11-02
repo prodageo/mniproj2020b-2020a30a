@@ -20,7 +20,7 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
      - Germain, Louis (lgermainINSA)
      - Lenoir, Louis ({pseudo Github membre 2-1})
      - Zeghib, Amin ({pseudo Github membre 2-1})
-   - Exx - CasimentPasDIdee
+   - E02 - CasimentPasDIdee
      - Abecassis, Zoé (caArrive)
      - Lesseure, Cassandre (cleseurre)
      - Quéré, David (DavidQuere)
