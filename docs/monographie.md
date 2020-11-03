@@ -29,8 +29,9 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
 
 ### A0 : Introduction.
 
-Ces dernières années, l'explosion quantitative des données numériques a contraint les scientifiques à repenser la manière dont l'être humain analyse celles-ci.
- 
+Ces dernières années, l'explosion quantitative des données numériques a contraint la communauté scientifique à repenser la manière dont l'être humain analyse celles-ci. Il s'agit de mettre en place de nouveaux outils permettant la capture, la recherche, le partage, le stockage, l’analyse et la présentation des données.
+Ces méthodes sont désigné par le terme "Big Data".
+
 ### A1. Glossaire et Mots-clés.
 
 #MachineLearning #IA #BigData #Tweet #TextMining #NLP #DataAnalysis #Trend #OpinionMining #SentimentAnalysis
