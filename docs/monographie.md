@@ -35,6 +35,13 @@ L'objectif du projet est de mettre en place une architecture, à l'aide de techn
 
 Il semble bon de définir quelques termes avant de commencer le projet.
 
+##### <em>Cluster</em>
+
+##### <em>HA cluster</em>
+##### <em>Load-balancing cluster</em>
+##### <em>HPC cluster</em>
+##### <em>Grid computing</em>
+
 
 ### A1. Glossaire et Mots-clés.
 
