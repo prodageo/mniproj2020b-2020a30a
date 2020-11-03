@@ -133,13 +133,16 @@ Spark Streaming à l'inverse de Storm qui traite les données en continue ajoute
 
  liste de 3 sous-caractéristiques prises parmi les 21 de ISO9126 (qu’on appelle aussi critères chez McCall) auquel répond cette technique, et ce tout particulièrement dans le contexte indiqué.
  
-#### 1. Efficacité en temps (Efficacité)
-lié à la contrainte de traitement en temps réel.
+ Afin de mener à bien notre projet, nous avons listé ci-dessous 3 sous-caractéristiques, issues de la norme qualité ISO9126, que nous avons jugé très pertinentes dans notre cas. En effet les données volumineuses que représentent les tweets imposent une certaine robustesse et fiabilité à notre application. Ainsi ces sous-caractéristiques représentent bien notre problème de gestion, transmition et traitement de grandes quantités de données tout en restant adaptable à d'autres contextes.
+ 
+ - Sous-caractéristique 1 : Efficacité en ressources
+Du fait du volume important de données, il est primordial de représenter et de stocker correctement l'information de façon à augmenter l'efficacité dans l'utilisation des ressources disponibles. En effet il peut arriver rapidemment que l'on manipule des données non pertinantes ou dupliquées si l'on ne gère pas correctement cette masse d'information.
 
-#### 2. Stabilité (Maintenabilité)
+ - Sous-caractéristique 2 : Modifiabilité
+La source de données étant externe, le flux pourrait donc changer de format au cours du temps. Il faut donc pouvoir modifier rapidement le code pour qu'il s'adapte aux éventuels changements. De même, on peut vouloir changer l'algorithme de traitement des tweets pour obtenir de meilleurs résultats sans que cela ne nécessite de modifier l'entièreté du code.
 
-#### 3. Efficacité en ressources (Efficacité)
-
+ - Sous-caractéristique 3 : Efficacité d'exécution
+L'application doit impérativement s'exécuter de manière efficace pour pouvoir traiter une grande quantité de données en un temps raisonnable. Il ne doit y avoir aucun blocage que ce soit lié au traitement d'un tweet ou bien à la transmission des informations.
 
 ### A6. Indicateurs qualité
 
