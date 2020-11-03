@@ -8,19 +8,19 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
  - Code du sujet : 30A
  - Code de l'alliance : 2020A30A
  - Liste des équipes
-   - E11 - Blue-Bird
+   - <strong> E11 - Blue-Bird </strong>
      - Poulain, Thomas (tpoulain)
      - Prieur, Maxime (Todaime)
      - Quarez, Etienne (equarez)
-   - E12 - Brocoli-Carottes
+   - <strong> E12 - Brocoli-Carottes </strong>
      - Godey, Maël (MaelGodey)
      - Lefebvre, Clément (clefebvre01)
      - Michelet, Adrien (Adrien-Michelet)
-   - E14 - {Nom équipe 3}
+   - <strong> E14 - {Nom équipe 3} </strong>
      - Germain, Louis (lgermainINSA)
      - Lenoir, Louis ({pseudo Github membre 2-1})
      - Zeghib, Amin ({pseudo Github membre 2-1})
-   - E02 - CasimentPasDIdee
+   - <strong> E02 - CasimentPasDIdee </strong>
      - Abecassis, Zoé (zabecassis)
      - Lesseure, Cassandre (cleseurre)
      - Quéré, David (DavidQuere)
