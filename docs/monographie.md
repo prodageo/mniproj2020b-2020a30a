@@ -21,7 +21,7 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
      - Lenoir, Louis ({pseudo Github membre 2-1})
      - Zeghib, Amin ({pseudo Github membre 2-1})
    - E02 - CasimentPasDIdee
-     - Abecassis, Zoé (caArrive)
+     - Abecassis, Zoé (zabecassis)
      - Lesseure, Cassandre (cleseurre)
      - Quéré, David (DavidQuere)
 
