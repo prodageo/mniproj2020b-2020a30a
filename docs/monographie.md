@@ -42,6 +42,10 @@ Cette configuration permet une gestion globale et de dépasser les limitations d
 Les grappes de serveurs ont plusieurs avantages comme augmenter la disponibilité, faciliter la gestion des ressources (RAM, ROM ...) entre autre.
 
 ##### <em>HA cluster</em>
+Les grappes à haute disponibilité (<em>High-availability cluster</em>) sont grappes de serveurs qui prennent en charge des applications pouvant être utilisées de manière fiable avec un minimum de temps d'arrêt.
+Elles assurent un service continu lorsque des composants du système tombent en panne. 
+La mise en place de grappes à haute disponibilité permet de détecter les défaillances matérielles/logicielles et de redémarrer immédiatement l'application sur un autre système sans intervention.
+
 ##### <em>Load-balancing cluster</em>
 ##### <em>HPC cluster</em>
 ##### <em>Grid computing</em>
