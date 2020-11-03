@@ -52,11 +52,10 @@ La répartition de charge a deux objectifs:
 * Éviter de surcharger de manière inégale les ordinateurs de la grappe lors de l'excecution d'une tâche. 
 
 ##### <em>HPC cluster</em>
-
 Les grappes de calcul (<em> High-performance computing cluster</em>) désginent les grappes qui utilisent des supercalculateurs pour réaliser leurs tâches.
 
 ##### <em>Grid computing</em>
-
+Une grille de calcul (<em>Grid computing</em>) est une infrastructure virtuelle (relations logiques entre les entités qui la composent) constituée d'un ensemble de ressources informatiques partagées, distribuées, hétérogènes, délocalisées et autonomes.
 
 ### A1. Glossaire et Mots-clés.
 
