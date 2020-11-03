@@ -46,6 +46,11 @@ Les grappes à haute disponibilité (<em>High-availability cluster</em>) sont de
 La mise en place de grappes à haute disponibilité permet de détecter les défaillances matérielles/logicielles et de redémarrer immédiatement l'application sur un autre système automatiquement.
 
 ##### <em>Load-balancing cluster</em>
+Les grappes à répartition de charge (em>Load-balancing cluster</em>) drépartissent les tâches à effectuer sur un ensemble de ressources, dans le but d’en rendre le traitement global plus efficace. 
+La répartition de charge a deux objectifs:
+* Permettre d’optimiser le temps de réponse pour chaque tâche
+* Éviter de surcharger de manière inégale les ordinateurs de la grappe lors de l'excecution d'une tâche. 
+
 ##### <em>HPC cluster</em>
 ##### <em>Grid computing</em>
 
