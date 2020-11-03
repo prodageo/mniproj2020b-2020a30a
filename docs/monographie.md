@@ -37,6 +37,10 @@ Il semble bon de définir quelques termes avant de commencer le projet.
 
 ##### <em>Cluster</em>
 
+On désigne par grappe de serveurs (<em>cluster</em>) ou de groupement de serveurs les techniques basées sur le regroupement de plusieurs ordinateurs indépendants.  
+Cette configuration permet une gestion globale et de dépasser les limitations d'un unique ordinateur.
+Les grappes de serveurs ont plusieurs avantages comme augmenter la disponibilité, faciliter la gestion des ressources (RAM, ROM ...) entre autre.
+
 ##### <em>HA cluster</em>
 ##### <em>Load-balancing cluster</em>
 ##### <em>HPC cluster</em>
@@ -45,7 +49,7 @@ Il semble bon de définir quelques termes avant de commencer le projet.
 
 ### A1. Glossaire et Mots-clés.
 
-#MachineLearning #IA #BigData #Tweet #TextMining #NLP #DataAnalysis #Trend #OpinionMining #SentimentAnalysis
+#MachineLearning #Données #Traitement #IA #BigData #Tweet #TextMining #NLP #DataAnalysis #Trend #OpinionMining #SentimentAnalysis
 
 ### A2. Webographie
 
