@@ -121,41 +121,21 @@ bibliographie de 3 livres avec la mise en exergue des sections qui vous semblent
 
  <em>liste des trois grandes organisations dans le secteur de cette technique (qu’ils soient des organisme de standardisation, des communautés du logiciels libres ou des sociétés privées), on décrira chaque organisation en une dizaine de lignes et on montrera sa contribution à la technique étudiée. Au moins une des organisations doit mettre à disposition un livre blanc sur le sujet étudié</em>
  
- #### 1. Storm (Twitter)
- 
- Présenté Initialement par Nathan Marz, Storm est un systeme de calcul distribué gratuit et open source. Storm utilise le concept du flot de données (streaming data) supposé continu. Implémenté en Clojur (Language de VM tournant sur  la JVM), il permet d'utiliser nimporte quel language de programmation.
- 
-Le modèles Storm prends la forme d'unmodèle de traitement de flot de données. Les données sont representée par des tuples ou bien des types définis par l'utilsateur. Chaque flot est féfinis poar un ID unique utilisé pour construire la topologie des sources de données et des puits. Des connecteurs appelé Spouts aggregent le flot de données depuis les sources vers le modèle Storm. Les entités aplliquant les transformations sont appelé des Bolt et implémentent chacun une transformation sur le flot de données (MapReduce, SingleStep Function, etc...).
+#### 1. Apache Software Foundation
+ est une organisation à but non-lucrative développant des logiciels open-source sous la licence Apache. 
+Si de nombreux projets sont sous licence Apache, pas seulement en matière de Big Data, on peut malgré tout noter que les frameworks les plus utilisés et reconnus sont sous cette licence.
+En effet Hadoop, un des framework les plus connus pour le traitement de grandes quantités d’informations, est sous licence Apache depuis 2012. Ce n’est pas le seul puisque l’on retrouve aussi Spark, produisant de l’analyse de données plus rapidement qu’Hadoop. 
+Kafka, Hive ou encore Flink sont tous passés sous cette licence après leur création. Les projets sont donc ainsi tous open-source et bénéficient d’un nombre important de contributeurs. Parmi ceux-ci l’on retrouve les entreprises les plus influentes en matière de Big Data tel que Yahoo (premier créateur d’Hadoop), Google (créateur du MapReduce), IBM, Linkedin ou encore Facebook. 
 
-L'une des particularités de Storm est la garantie que toutes données provenant d'une des sources sera traitée. Lorsque l'une des entrées n'a pas le temps d'être traitée elle est relancé vers l'entrée du modèle.
+#### 2. Google 
+a crée en 2004 MapReduce, un modèle de programmation utilisé pour traiter de gros flux de données. Si aujourd’hui MapReduce est de plus en plus délaissé, il a permis à Hadoop d’émerger  et ainsi de mettre en lumière le calcul distribué et parallèle. L’enjeu est très important puisqu’à mesure qu’internet se développe, de plus en plus de données doivent être traitées. A titre d’exemple Facebook génère 4 Pétaoctets de nouvelle données chaque jour. Ainsi si toutes ces données doivent être analysées en un temps raisonnable, les algorithmes classiques ne le permettent pas. Map Reduce propose de diviser le problème en de nombreux sous-problèmes, indépendants les uns des autres, et d’ensuite tout rassembler. Chaque sous problème est traiter sur une machine indépendante, permettant le calcul parallèle et distribué. L’exemple le plus connu de Map Reduce est le word count, consistant à compter le nombre d’occurrences des mots dans un texte. Pour ce faire chaque ligne est séparée puis à chaque mot d’une ligne est attribué le nombre. Les données sont ensuite triées afin d’avoir les mots identiques ensemble. Finalement le nombre d’occurrences est ajouté (cf exemple si dessous). On peut retrouver un livre blanc de Google sur le sujet du Map Reduce qui détaille l’utilisation de Map Reduce sur un nombre important de machines. 
 
-Remarque : Dans le cas ou le nombre de noeud de calcul à disposition est trop bas, il est possible d'implementer Storm par le biens de Amazon Elastic Compute Cloud (EC2).
- 
- #### 2. S4 (Yahoo)
- 
- #### 3. Hadoop (Apache)
- 
-  Créé par Doug Cutting en 2009, Hadoop est le framework maître dans l'art de l'analyse big-data. Libre, open source et écrit en Java, Hadoop permet la mise en place d'application distribuées en terme de stockage de données et de leur traitement. L'idée du framework Hadoop est de pouvoir gérer automatiquement les pannes matérielle supposées fréquentes.
-  
-  Concentrée sur le traitement par lots (batch). Les données sont introduites en entrée dans le HDFS (Hadoop distributed file system), séparées en batch et ensuite réparties vers différents noeuds ayant reçu le code à executer (MapReduce). A la fin des traitement les données sont retournées au HDFS.
- 
- Quatres modules : Hadoop Common, Hadoop Distributed File System, Hadoop YARN, Hadoop MapReduce.
- 
- De nombreuses grandes entreprises comme Facebook, Yahoo ou bien encore Microsoft utilisent Hadoop.
- 
- #### 4. Spark Streaming (UC Berkeley & AMPLab)
- 
-Extension de l'API Spark permettant un traitement rapide, robuste à la panne et scalable. Spark utilise le principe de micro-batch (les données reçues sont divisées en mini batch RDDs) puis traité par Spark Engine pour la génération du flux de résultats en batch. Spark Streaming fait appel à DStreams qui est une séquence de RDDs représentant un flux de données continu.
+![Map Recude exemple](https://www3.nd.edu/~pbui/teaching/cse.30331.fa16/static/img/mapreduce-wordcount.png)
 
-Spark Streaming à l'inverse de Storm qui traite les données en continue ajoute un délai entre l'arrivé d'un message et son traitement. Cependant en condition dégradée Spark assure un fonctionnement "at least once" qui assure qu'un message peut être délivré plusieur fois mais sans perte.
- 
- #### 5. Disco (Nokia)
- 
- #### 6. HPCC (LexisNexis)
- 
- #### 7. Azure stream analytics (Microsoft)
- 
- #### 8. Snowflake
+https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
+
+#### 3. Talend
+est une entreprise française créée en 2006 spécialisée dans la gestion et l’intégration de données. Elle travaille en collaboration avec la fondation Apache, notamment dans les projets Spark ou Karaf. Son business model consiste à distribuer de manière open-source les projets sur lesquels elle travaille et contribuer à ceux existant tout en proposant des fonctionnalités complémentaires payantes, ainsi que du support et du conseil. Sur ce marché elle n’est pas la seule puisque Cloudera repose sur la même structure, cette fois davantage orientée vers Hadoop. Ces solutions sont utiles pour des entreprises souhaitant intégrer de l’analyse ou du stockage massif de données sans pour autant avoir les capacités humaines en terme de nombre ou de compétences, de le faire elle-même. La mise en place d’une architecture intégrant du Big Data peut se révéler longue et complexe tandis que des sociétés comme Talend ou Cloudera (acteurs majeurs du marché) permettent des solutions clef en main adaptés au besoin de chaque entreprise. Ils proposent des visualisations claires et esthétiques des données, ce que ne propose pas simplement les outils comme Hadoop. 
 
 ### A5. Facteurs qualité
 
