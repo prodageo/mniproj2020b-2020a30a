@@ -16,10 +16,10 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
      - Godey, Maël (MaelGodey)
      - Lefebvre, Clément (clefebvre01)
      - Michelet, Adrien (Adrien-Michelet)
-   - <strong> E14 - {Nom équipe 3} </strong>
+   - <strong> E14 - Troisième équipe </strong>
      - Germain, Louis (lgermainINSA)
      - Lenoir, Louis (Loulen)
-     - Zeghib, Amin ({pseudo Github membre 2-1})
+     - Zeghib, Amin (Sklaer)
    - <strong> E02 - CasimentPasDIdee </strong>
      - Abecassis, Zoé (zabecassis)
      - Lesseure, Cassandre (cleseurre)
@@ -127,10 +127,9 @@ L'application doit impérativement s'exécuter de manière efficace pour pouvoir
 
  Liste d’au moins deux indicateurs de base (ou mesures au sens ISO9126) et d’au moins un indicateur dérivé pour chacun des trois facteurs/sous-facteurs identifiés dans la question A5.
  
- Pour jauger de la qualité de la méthode nous aurons recours à des indicateurs, qui se rapportent notamment aux facteurs ISO9126 cités plus haut.
+ Big data ou non, il faut privilégier la qualité à la quantité. Aussi pour mesurer la qualité de la méthode nous aurons recours à des indicateurs, qui se rapportent notamment aux facteurs ISO9126 cités plus haut.
 
 #### 1. Indicateurs de base
- - **Indicateur d'efficacité** : 
  - **Indicateur de fonctionnalité** : Mesure de la précision de la tendance perçue par rapport au sujet.
  - **Indicateur de fiabilité** : Mesure du temps moyen entre défaillances consécutives.
  
@@ -139,9 +138,6 @@ L'application doit impérativement s'exécuter de manière efficace pour pouvoir
 - **Modifiabilité** : Mesure du nombre de lignes de code.
 - **Efficacité d'éxecution** : Mesure du nombre de tweets traités par seconde.
 - **Efficacité d'éxecution** : Mesure du rapport entre le nombre de tweets à traiter et le temps de traitement.
-
-
-
 
 ### A7. Références théoriques
 
