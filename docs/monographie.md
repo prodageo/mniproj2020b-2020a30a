@@ -24,6 +24,10 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
      - Abecassis, Zoé (zabecassis)
      - Lesseure, Cassandre (cleseurre)
      - Quéré, David (DavidQuere)
+   - <strong> E01 </strong>
+     - CHAN Justin (jchanUML)
+     - CLERET Luc
+     - MAZARI Pierre
 
 ## Partie A
 
