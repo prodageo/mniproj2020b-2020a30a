@@ -122,9 +122,10 @@ bibliographie de 3 livres avec la mise en exergue des sections qui vous semblent
  <em>liste des trois grandes organisations dans le secteur de cette technique (qu’ils soient des organisme de standardisation, des communautés du logiciels libres ou des sociétés privées), on décrira chaque organisation en une dizaine de lignes et on montrera sa contribution à la technique étudiée. Au moins une des organisations doit mettre à disposition un livre blanc sur le sujet étudié</em>
  
 #### 1. Apache Software Foundation
- est une organisation à but non-lucrative développant des logiciels open-source sous la licence Apache. 
+est une organisation à but non-lucrative développant des logiciels open-source sous la licence Apache. 
 Si de nombreux projets sont sous licence Apache, pas seulement en matière de Big Data, on peut malgré tout noter que les frameworks les plus utilisés et reconnus sont sous cette licence.
-En effet Hadoop, un des framework les plus connus pour le traitement de grandes quantités d’informations, est sous licence Apache depuis 2012. Ce n’est pas le seul puisque l’on retrouve aussi Spark, produisant de l’analyse de données plus rapidement qu’Hadoop. 
+En effet Hadoop, un des framework les plus connus pour le traitement de grandes quantités d’informations, est sous licence Apache depuis 2012. Hadoop est lui même composé de plusieurs modules à savoir : Hadoop Common, Hadoop Distributed File System (HDFS), Hadoop Yarn, Hadoop MapReduce. Tous ces modules fonctionnent ensemble et peuvent être couplés avec d’autres framework de l’environnement comme Hive, permettant d’éviter un traitement avec du Map Reduce en passant par du HQL, un langage très similaire au SQL. 
+Hadoop n’est pas le seul à faire partie de la fondation Apache puisque l’on retrouve aussi Spark, produisant de l’analyse de données plus rapidement qu’Hadoop. 
 Kafka, Hive ou encore Flink sont tous passés sous cette licence après leur création. Les projets sont donc ainsi tous open-source et bénéficient d’un nombre important de contributeurs. Parmi ceux-ci l’on retrouve les entreprises les plus influentes en matière de Big Data tel que Yahoo (premier créateur d’Hadoop), Google (créateur du MapReduce), IBM, Linkedin ou encore Facebook. 
 
 #### 2. Google 
