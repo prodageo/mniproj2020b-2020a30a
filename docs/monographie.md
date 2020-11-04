@@ -18,16 +18,12 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
      - Michelet, Adrien (Adrien-Michelet)
    - <strong> E14 - {Nom équipe 3} </strong>
      - Germain, Louis (lgermainINSA)
-     - Lenoir, Louis ({pseudo Github membre 2-1})
+     - Lenoir, Louis (Loulen)
      - Zeghib, Amin ({pseudo Github membre 2-1})
    - <strong> E02 - CasimentPasDIdee </strong>
      - Abecassis, Zoé (zabecassis)
      - Lesseure, Cassandre (cleseurre)
      - Quéré, David (DavidQuere)
-   - <strong> E01 </strong>
-     - CHAN Justin (jchanUML)
-     - CLERET Luc
-     - MAZARI Pierre
 
 ## Partie A
 
@@ -74,7 +70,7 @@ Une grille de calcul (<em>Grid computing</em>) est une infrastructure virtuelle 
 
 #### 1. Architecture
 
-- <strong>https://big-data.developpez.com/tutoriels/apprendre-faire-choix-architecture-big-data/</strong> Site Developpez.com, Présentation des enjeux du Big Data et de ces acteurs, présentation des architectures et solutions disponibles.
+- <strong>https://big-data.developpez.com/tutoriels/apprendre-faire-choix-architecture-big-data/</strong> Site Developpez.com, tutoriel choix d'une architecture big-data
  - <strong>https://www.ibm.com/developerworks/library/os-twitterstorm/index.html</strong> Site IBM.com. Acteurs principaux de l'analyse de tweets en temps réels.
 
 #### 2. Guides Python pour Twitter
@@ -83,12 +79,6 @@ Une grille de calcul (<em>Grid computing</em>) est une infrastructure virtuelle 
 - <strong>oreilly.com/library/view/mining-the-social/9781449394752/ch01s02.html</strong> Site O'Reilly, Collectiong and Manipulating Twitter Data
 - <strong>https://www.toptal.com/python/twitter-data-mining-using-python</strong>, Site toptal.com, Tutoriel sur l'utilisation de l'API twitter avec python.
 - <strong>https://www.kdnuggets.com/2016/06/mining-twitter-data-python-part-1.html</strong> Site Kdnuggets.com, Tutoriel Python pour : CollectionData, Text Pre-Processing, Term Frequencies, Term Co-occurrences, Data Visualisation Basics
-
-#### 3. Tutoriels d'analyse de Tweets
-- <strong>https://www.tandfonline.com/doi/full/10.1080/23311916.2018.1534519?fbclid=IwAR2Zd6HcyGqEiKcBaNubOsAv8NZ_cyWZO3hVYkPMqO-lIIDuj9PVuJaa9-A&</strong>, Analyse de tweets en temps réel via Apache Flume et Hadoop
-
-- <strong>https://blog.sodifrance.fr/analyser-des-donnees-de-sentiments-avec-un-ecosysteme-hadoop/</strong>, Tutoriel d’analyse de tweets avec Flume et Hive
-
 
 ### A3. Bibliographie
 
@@ -119,24 +109,39 @@ https://static.googleusercontent.com/media/research.google.com/en//archive/mapre
 est une entreprise française créée en 2006 spécialisée dans la gestion et l’intégration de données. Elle travaille en collaboration avec la fondation Apache, notamment dans les projets Spark ou Karaf. Son business model consiste à distribuer de manière open-source les projets sur lesquels elle travaille et contribuer à ceux existant tout en proposant des fonctionnalités complémentaires payantes, ainsi que du support et du conseil. Sur ce marché elle n’est pas la seule puisque Cloudera repose sur la même structure, cette fois davantage orientée vers Hadoop. Ces solutions sont utiles pour des entreprises souhaitant intégrer de l’analyse ou du stockage massif de données sans pour autant avoir les capacités humaines en terme de nombre ou de compétences, de le faire elle-même. La mise en place d’une architecture intégrant du Big Data peut se révéler longue et complexe tandis que des sociétés comme Talend ou Cloudera (acteurs majeurs du marché) permettent des solutions clef en main adaptés au besoin de chaque entreprise. Ils proposent des visualisations claires et esthétiques des données, ce que ne propose pas simplement les outils comme Hadoop. 
 
 ### A5. Facteurs qualité
+
+ liste de 3 sous-caractéristiques prises parmi les 21 de ISO9126 (qu’on appelle aussi critères chez McCall) auquel répond cette technique, et ce tout particulièrement dans le contexte indiqué.
  
  Afin de mener à bien notre projet, nous avons listé ci-dessous 3 sous-caractéristiques, issues de la norme qualité ISO9126, que nous avons jugé très pertinentes dans notre cas. En effet les données volumineuses que représentent les tweets imposent une certaine robustesse et fiabilité à notre application. Ainsi ces sous-caractéristiques représentent bien notre problème de gestion, transmition et traitement de grandes quantités de données tout en restant adaptable à d'autres contextes.
  
  - Sous-caractéristique 1 : Efficacité en ressources
-
-Du fait du volume important de données, il est primordial de représenter et de stocker correctement l'information de façon à augmenter l'efficacité dans l'utilisation des ressources disponibles. En effet il peut arriver rapidemment que l'on manipule des données non pertinantes ou dupliquées si l'on ne gère pas correctement cette masse d'information.
+Du fait du volume important de données, il est primordial de représenter et de stocker correctement l'information de façon à augmenter l'efficacité dans l'utilisation des ressources disponibles. En effet il peut arriver rapidemment que l'on manipule des données non pertinentes ou dupliquées si l'on ne gère pas correctement cette masse d'information.
 
  - Sous-caractéristique 2 : Modifiabilité
-
 La source de données étant externe, le flux pourrait donc changer de format au cours du temps. Il faut donc pouvoir modifier rapidement le code pour qu'il s'adapte aux éventuels changements. De même, on peut vouloir changer l'algorithme de traitement des tweets pour obtenir de meilleurs résultats sans que cela ne nécessite de modifier l'entièreté du code.
 
  - Sous-caractéristique 3 : Efficacité d'exécution
-
 L'application doit impérativement s'exécuter de manière efficace pour pouvoir traiter une grande quantité de données en un temps raisonnable. Il ne doit y avoir aucun blocage que ce soit lié au traitement d'un tweet ou bien à la transmission des informations.
 
 ### A6. Indicateurs qualité
 
  Liste d’au moins deux indicateurs de base (ou mesures au sens ISO9126) et d’au moins un indicateur dérivé pour chacun des trois facteurs/sous-facteurs identifiés dans la question A5.
+ 
+ Pour jauger de la qualité de la méthode nous aurons recours à des indicateurs, qui se rapportent notamment aux facteurs ISO9126 cités plus haut.
+
+#### 1. Indicateurs de base
+ - **Indicateur d'efficacité** : 
+ - **Indicateur de fonctionnalité** : Mesure de la précision de la tendance perçue par rapport au sujet.
+ - **Indicateur de fiabilité** : Mesure du temps moyen entre défaillances consécutives.
+ 
+#### 2. Indicateurs dérivés
+- **Efficacité en ressources** : Mesure de la mémoire vive et morte utilisée.
+- **Modifiabilité** : Mesure du nombre de lignes de code.
+- **Efficacité d'éxecution** : Mesure du nombre de tweets traités par seconde.
+- **Efficacité d'éxecution** : Mesure du rapport entre le nombre de tweets à traiter et le temps de traitement.
+
+
+
 
 ### A7. Références théoriques
 
