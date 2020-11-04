@@ -91,8 +91,6 @@ Une grille de calcul (<em>Grid computing</em>) est une infrastructure virtuelle 
 
 ### A4. Acteurs
 
- <em>liste des trois grandes organisations dans le secteur de cette technique (qu’ils soient des organisme de standardisation, des communautés du logiciels libres ou des sociétés privées), on décrira chaque organisation en une dizaine de lignes et on montrera sa contribution à la technique étudiée. Au moins une des organisations doit mettre à disposition un livre blanc sur le sujet étudié</em>
- 
 #### 1. Apache Software Foundation
 est une organisation à but non-lucrative développant des logiciels open-source sous la licence Apache. 
 Si de nombreux projets sont sous licence Apache, pas seulement en matière de Big Data, on peut malgré tout noter que les frameworks les plus utilisés et reconnus sont sous cette licence.
