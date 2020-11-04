@@ -87,7 +87,7 @@ Une grille de calcul (<em>Grid computing</em>) est une infrastructure virtuelle 
 #### 3. Tutoriels d'analyse de Tweets
 - <strong>https://www.tandfonline.com/doi/full/10.1080/23311916.2018.1534519?fbclid=IwAR2Zd6HcyGqEiKcBaNubOsAv8NZ_cyWZO3hVYkPMqO-lIIDuj9PVuJaa9-A&</strong>, Analyse de tweets en temps réel via Apache Flume et Hadoop
 
-<strong>https://blog.sodifrance.fr/analyser-des-donnees-de-sentiments-avec-un-ecosysteme-hadoop/</strong>, Tutoriel d’analyse de tweets avec Flume et Hive
+- <strong>https://blog.sodifrance.fr/analyser-des-donnees-de-sentiments-avec-un-ecosysteme-hadoop/</strong>, Tutoriel d’analyse de tweets avec Flume et Hive
 
 
 ### A3. Bibliographie
