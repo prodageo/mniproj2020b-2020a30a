@@ -146,9 +146,37 @@ L'application doit impérativement s'exécuter de manière efficace pour pouvoir
 
 ### A7. Références théoriques
 
- Structurer (et/ou hiérachiser) les différentes références du référentiel théorique (ainsi que les références que vous avez identifiées). Dans le cas où le référentiel théorique comprend un (voire des) catalogue(s) de patterns, on précisera notamment la liste des thématiques (problem area) ainsi que la grille de présentation des patterns (les rubriques de la description d’un pattern, et leur sémantique). Rappel : par référentiel théorique est entendu l’ensemble des patterns qui ont pu vous être soumis dans le sujet ou que vous avez pu identifier lors de la rédaction de la monographie (notamment la version A). A noter également quelques catalogues rencontrés en cours :
-POSA4 : http://www.dre.vanderbilt.edu/~schmidt/POSA4-TOC.pdf
-PofEAA : http://martinfowler.com/books/eaa.html
+Le design pattern en adéquation avec ce sujet est le *Real-time streaming pattern*
+
+Les différents objectifs de ce pattern sont :
+La minimisation du temps de traitement des informations
+Le traitement des évènements au travers d’unités indépendantes les unes des autres.
+Le support de l’échec du traitement des informations
+
+Comme chaque tweet est traité séparément, et les unités de traitement indépendantes du support,  il est possible d’établir une architecture scalable, que ce soit horizontalement ou verticalement. Ce pattern est donc adapté à la lecture de tweets en temps réel.
+
+Cela permet aussi de rendre le système résilient et de résister aux échecs. Ainsi la stabilité du programme est maintenue à tout moment.
+
+Ce pattern peut être implémenté grâce à plusieurs frameworks tels que akka (Java) ou avec le langage Scala, qui utilise le paradigme acteur.
+
+
+Chaque acteur peut-être associé à une unité de traitement, indépendante des autres. L’utilisation du framework permet une utilisation plus simple car il gère seul la durée de vie et de mort des acteurs et cela à la fin d’une tâche ou quand une erreur se produit.
+
+Dans “Clean architecture” de Robert Martin, on trouve un catalogue de design patterns de Big Data. On y trouve différents patterns en adéquation avec notre sujet : 
+
+#### Exception : 
+Ce pattern permet notamment une meilleure prévision des exceptions dans le code.  De plus, il instaure un système de logs pour plus de facilité à gérer les anomalies.
+
+L’importance de ce pattern réside dans le fait que potentiellement chaque donnée peut être mal traitée et donc faire échouer le programme. Ce pattern nous incite à séparer les différentes étapes du traitement, en effet avoir une distinction précise entre chaque traitement permet d’avoir une meilleure lisibilité, interprétabilité, et de rendre le traitement plus facilement debuggable.
+Les différentes étapes peuvent être :
+* Obtention des données
+* Pré-traitement des données (Normalisation)
+* Sauvegarde 
+* Processus principal (comptage des mots positifs/négatifs dans notre cas)
+* Livraison des données
+
+Les données peuvent être livrées sous plusieurs formes. On pense notamment au stockage dans une ou plusieures bases de données bien qu’elles puissent également être copiées sur plusieurs supports afin de pérenniser les données.
+
 
 ## Partie B
 
