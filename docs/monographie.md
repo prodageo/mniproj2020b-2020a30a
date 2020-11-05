@@ -90,6 +90,8 @@ Une grille de calcul (<em>Grid computing</em>) est une infrastructure virtuelle 
 ### A3. Bibliographie
 
 - <strong>Big Data at Work: Dispelling the Myths, Uncovering the Opportunities</strong> - Thomas H. Davenport - 2014
+  * What technology you need to manage it
+  * The key success factors in implementing any big data project
 
 - <strong>Analytics in a Big Data World: The Essential Guide to Data Science and its Applications </strong> - Bart Baesens - 2014
   * Chapter 3 -  Predictive Analytics
