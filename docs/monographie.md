@@ -83,7 +83,7 @@ Une grille de calcul (<em>Grid computing</em>) est une infrastructure virtuelle 
 
 #### 3. Tutoriels d'analyse de Tweets
 
-- <strong>https://dmnbigdata.com/fr/analyzing-twitter-data-with-apache-hadoop/</strong>, Tutoriel d’analyse de tweets avec Hadoop
+- <strong>https://www.tandfonline.com/doi/full/10.1080/23311916.2018.1534519?fbclid=IwAR2Zd6HcyGqEiKcBaNubOsAv8NZ_cyWZO3hVYkPMqO-lIIDuj9PVuJaa9-A&</strong>, Tutoriel d’analyse de tweets avec Hadoop
 
 
 
