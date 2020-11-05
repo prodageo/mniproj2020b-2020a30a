@@ -67,7 +67,7 @@ Une grille de calcul (<em>Grid computing</em>) est une infrastructure virtuelle 
 
 ### A1. Glossaire et Mots-clés.
 
-#BigData #DataAnalysis #Tweet #MachineLearning #Traitement #Stockage #TextMining #NLP #Trend #OpinionMining
+BigData; DataAnalysis; Tweet; MachineLearning; Traitement; Stockage; TextMining; NLP; Trend; OpinionMining
 
 ### A2. Webographie
 
