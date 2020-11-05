@@ -94,8 +94,10 @@ Une grille de calcul (<em>Grid computing</em>) est une infrastructure virtuelle 
 - <strong>Analytics in a Big Data World: The Essential Guide to Data Science and its Applications </strong> - Bart Baesens - 2014
   * Chapter 3 -  Predictive Analytics
   * Chapter 6 -  Social Network Analytics
+  * Chapter 8    Example Applications => Social Media Analytics
 
 - <strong>Sentiment Analysis: Mining Opinions, Sentiments, and Emotions</strong> -  Bing Liu - 2015
+  * Chapters  3–9  
 
 
 ### A4. Acteurs
