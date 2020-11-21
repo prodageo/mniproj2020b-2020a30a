@@ -201,7 +201,7 @@ description technique des solutions choisies (X et Y). Pour chaque solution rete
  liste de métriques permettant de comparer (benchmarker) les solutions choisies tout particulièrement sur les facteurs retenus en conclusion de la partie A. Dans la partie A6, des métriques ont pu être pré-sélectionnées. Il s’agit dans cette partie B4 de s’interroger sur la faisabilité de la mesure des métriques et pour celles qui seront retenues (de l’ordre de 3) de décrire dans le détail la procédure de mesure.
 
 ### B5. Découpage (WBS) pour réalisation des prototypes
-découpage en tâches (Work Breakdown Structure) montrant comment vous allez parvenir à réaliser deux prototypes.
+découpage en tâches (Work Breakdown Structure) montrant comment vous allez parvenir à réaliser cinq prototypes.
 
 ## Partie C
 
