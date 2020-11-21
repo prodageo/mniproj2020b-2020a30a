@@ -189,14 +189,19 @@ Les données peuvent être livrées sous plusieurs formes. On pense notamment au
 ## Partie B
 
 ### B1. Approche technique
+texte de 2 à 3 pages qui montre les principales caractéristiques des approches techniques sur le sujet (on utilisera de manière privilégiée les patterns pour étayer la description).
 
 ### B2. Solutions technologiques concurrentes
-
+ liste des solutions technologiques concurrentes mettant en œuvre une des approches techniques (de manière plus ou moins explicite), et parmi cette liste, le choix de deux solutions technologies Y et Z pour prototypage. Pour les solutions choisies, assurez-vous que vous êtes bien en mesure de les mettre en œuvre (prérequis accessibles, licences d’évaluation disponibles en cas de modèle payant, …).
+ 
 ### B3. Solutions retenues
+description technique des solutions choisies (X et Y). Pour chaque solution retenue (une solution par équipe de l’alliance), indiquer l’équipe qui prend en charge et fournir une description technique synthétique.
 
 ### B4. Liste de métriques
+ liste de métriques permettant de comparer (benchmarker) les solutions choisies tout particulièrement sur les facteurs retenus en conclusion de la partie A. Dans la partie A6, des métriques ont pu être pré-sélectionnées. Il s’agit dans cette partie B4 de s’interroger sur la faisabilité de la mesure des métriques et pour celles qui seront retenues (de l’ordre de 3) de décrire dans le détail la procédure de mesure.
 
 ### B5. Découpage (WBS) pour réalisation des prototypes
+découpage en tâches (Work Breakdown Structure) montrant comment vous allez parvenir à réaliser deux prototypes.
 
 ## Partie C
 
