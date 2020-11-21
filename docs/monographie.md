@@ -191,6 +191,29 @@ Les données peuvent être livrées sous plusieurs formes. On pense notamment au
 ### B1. Approche technique
 texte de 2 à 3 pages qui montre les principales caractéristiques des approches techniques sur le sujet (on utilisera de manière privilégiée les patterns pour étayer la description).
 
+#### Hadoop Online
+
+#### HDFS
+
+#### Apache Hadoop
+
+Implémentation open-source populaire du MapReduce
+
+##### MapReduce
+Executé en 3 étapes (Map, Shuffle, Reduce), MapReduce est un model de programmation permettant le traitement grands ensemble de donnée.
+- <strong>Map</strong>:
+Les données en entrée sont partitionnées pour que ces nouveaux échantillons soient envoyé à un programme appliquant la fonction de mapping. La fonction de mapping produit des paires (clé, valeur).
+- <srong>Shuffle</strong>:
+Les paires (clé, valeur) sont regroupé par clé et chaque groupe est envoyé à la partie de Réduction correspondante.
+- <strong>
+
+#### Yarn
+
+#### Spark Streaming
+
+#### Spark
+
+
 ### B2. Solutions technologiques concurrentes
  liste des solutions technologiques concurrentes mettant en œuvre une des approches techniques (de manière plus ou moins explicite), et parmi cette liste, le choix de deux solutions technologies Y et Z pour prototypage. Pour les solutions choisies, assurez-vous que vous êtes bien en mesure de les mettre en œuvre (prérequis accessibles, licences d’évaluation disponibles en cas de modèle payant, …).
  
