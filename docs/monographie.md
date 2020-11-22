@@ -191,11 +191,33 @@ Les données peuvent être livrées sous plusieurs formes. On pense notamment au
 ### B1. Approche technique
 texte de 2 à 3 pages qui montre les principales caractéristiques des approches techniques sur le sujet (on utilisera de manière privilégiée les patterns pour étayer la description).
 
-#### Hadoop Online
+####  a. Architecture Pattern
 
-#### HDFS
+##### Real-Time Streaming Architecture
 
-#### Apache Hadoop
+##### Kappa Architecture
+
+##### Lambda Architecture
+
+#### b. Functional Patterns
+
+##### Stream Joins
+
+#### c. Data Management Patterns
+
+##### External Lookup
+
+##### Responsive Shuffling
+
+##### Out-Of-Sequence Events
+
+#### c. Frameworks
+
+##### 1) Hadoop Online
+
+##### HDFS
+
+###### Apache Hadoop
 
 Implémentation open-source populaire du MapReduce
 
@@ -207,11 +229,11 @@ Les données en entrée sont partitionnées pour que ces nouveaux échantillons 
 Les paires (clé, valeur) sont regroupé par clé et chaque groupe est envoyé à la partie de Réduction correspondante.
 - <strong>
 
-#### Yarn
+##### Yarn
 
-#### Spark Streaming
+##### 2) Spark Streaming
 
-#### Spark
+##### Spark
 
 
 ### B2. Solutions technologiques concurrentes
