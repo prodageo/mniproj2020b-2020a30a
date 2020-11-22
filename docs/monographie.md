@@ -191,7 +191,11 @@ Les données peuvent être livrées sous plusieurs formes. On pense notamment au
 ### B1. Approche technique
 texte de 2 à 3 pages qui montre les principales caractéristiques des approches techniques sur le sujet (on utilisera de manière privilégiée les patterns pour étayer la description).
 
+Quatre types de pattern ressortent lorsque l'on s'interesse à une application traitant un flot continu (Streaming) de données. Ici nous écarterons délibérément le dernier pattern, Data Security, puisque ce n'est pas un facteur qualité que nous avons choisi de traiter en priorité.
+
 ####  a. Architecture Pattern
+
+Le traitement et l'analyse de données en temps reel est un problème qui est abordé dans la plupart des cas par le biais d'une des trois architecture suivante.
 
 ##### Real-Time Streaming Architecture
 
@@ -205,15 +209,21 @@ texte de 2 à 3 pages qui montre les principales caractéristiques des approches
 
 #### c. Data Management Patterns
 
-##### External Lookup
+##### 1) External Lookup
 
-##### Responsive Shuffling
+Rapide et Dynamique, l'external Lookup minimise le temps de traitement et le risque d'un bloquage du flot de données sur un composant du system tout en maintenant un rendement de sortie élevé.
 
-##### Out-Of-Sequence Events
+##### 2) Responsive Shuffling
+Ajustement automatique de la répartition des données pour de meilleures performances lors de pic d'activité tout en variant le biais des données.
+
+##### 3) Out-Of-Sequence Events
 
 #### c. Frameworks
 
 ##### 1) Hadoop Online
+
+##### Micro-Batching
+Afin de traiter un flot continu de données, Hadoop utilise le concept de micro-batching consistant à subdiviser le flot entrant en partitions puis envoyé à un system de traitement par batch. Une telle approche introduit une latence sur le traitement.
 
 ##### HDFS
 
@@ -233,7 +243,8 @@ Les paires (clé, valeur) sont regroupé par clé et chaque groupe est envoyé �
 
 ##### 2) Spark Streaming
 
-##### Spark
+##### 3) Storm
+
 
 
 ### B2. Solutions technologiques concurrentes
