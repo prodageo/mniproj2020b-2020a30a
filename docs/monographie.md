@@ -195,7 +195,29 @@ Quatre types de pattern ressortent lorsque l'on s'interesse à une application t
 
 ####  a. Streaming-Architecture Pattern
 
-Le traitement et l'analyse de données en temps reel est un problème qui est abordé dans la plupart des cas en adoptant l'une des quatre architectures : Hadoop, Lambda, Kappa et Smack. L'architecture de streaming étant un ensemble définis de composants en intéraction mutuelle dans le but d'effectuer une série d'actions/taitement sur une série non bornée de données au moment de leur création.
+Le traitement et l'analyse de données en temps reel est un problème qui est abordé dans la plupart des cas en adoptant l'une des trois architecture : générique, Lambda, Kappa et Smack. L'architecture de streaming étant un ensemble définis de composants en intéraction mutuelle dans le but d'effectuer une série d'actions/taitement sur une série non bornée de données au moment de leur création.
+
+##### Real Time Streaming Architecture
+
+<p align="center">
+<img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_RealTimeStreaming_Architecture.png" width="600">
+</p>
+<p align="center"> Architecture générique de traitement de données en temps-réel (NortonWorks)</p>
+
+De façon générale, l'architecture mise en place dans le but de traiter un flot continu de données peut se representer comme une pipeline d'étape de traitement ou chacune possede plusieurs solutions possible. Ainsi certain élement se retrouve dans quasiment chaque architecture.
+
+###### Message Broker / Stream Processor
+
+Cet élément récupère les données à la source (the producer) les formate renvoie le flot de données. Le reste des composant peuvent alors récupérer ces données precedement traitées.Les première technologies de message broker était basée sur le concepte Message Oriented Middleware (MOM) et a vite été remplacé par des plateformes (stream processors) plus performantes. L'in des streams processors les plus performant et open-source reste Kafka de la fondation Apache.
+
+###### ETL (Extract-Transform-Load) par batch et real-time
+Les flux de données provenant des message brokers explicité precedément requierts par la suite d'être aggregés, transformés et structurés pour ensuite etre analysés . C'est le rôle qui est remplis par les ETL. On peut citer parmi les ETL open-source les plus connus: Apache Storm et Spark Streaming.
+
+###### Composant de stockage des données
+Dans notre cas, il est possible de réutiliser le composant message broker pour stocker nos données puisque celles-ci n'ont pas pour but d'etre conservées.
+
+###### Data Analytics
+Lorsque les données sont prêtes à etre utilisé, les outils d'analyse entrent en jeu. On peut cette fois-ci parler des outils Cassandra ou encore ElasticSearch.
 
 ##### Lambda Architecture
 
@@ -224,18 +246,14 @@ Pour séparer les différentes parties de l'architecture donnant lieu à un choi
 
 ##### Kappa Architecture
 
-Proposée apres l'architecture Lambda, . Une serie de données est en premier lieu stockée dans une messaging engine (Apache ou Kafka) qui lit, formate les données et les stocks dans une base de données disponible pour le traitement final. L'architecture Kappa fait office d'alternative simplifiée à l'architecture Lambda, puisque les deux architecture utilisent le même ensemble de technnologies mais Kappa se démarque par le fait que les données sont considérées comme un flot, la partie de traitement par flot de Kappa est ainsi la seule partie de transformation des données.
+Proposée apres l'architecture Lambda par Jay Kreps, l'architecture Kappa stocke une serie de données dans une messaging engine (Apache ou Kafka) qui lit, formate  et stocks les données dans une base de données disponible pour le traitement final. L'architecture Kappa fait office d'alternative simplifiée à l'architecture Lambda, puisque les deux architecture utilisent le même ensemble de technnologies mais Kappa se démarque par le fait que les données sont considérées comme un flot, la partie de traitement par flot de Kappa est ainsi la seule partie de transformation des données. Kappa fusionne les couches en temps-réel et en batch de Lambda. Cependant, le système de stockage de l'architecture est plus restreint et doit ainsi etre un système de type log non modifiable (Ex : Kafka).
 
 <p align="center">
 <img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_Kappa_Architecture.png" width="600">
  </p>
 <p align="center">Kappa Architecture (NortonWorks)</p>
 
-L'avantage de Kappa par rapport à l'architecture Lambda et la possibilité de construire  une application de traitement en ayant la possibilité de modifier son code 
-
-##### Smack Architecture
-
-##### Synthèse des architectures
+Le service de stockage de message de l'architecture Kappa gade les données de façon temporaire. Kappa est donc, encore plus que Lambda, destiné à du traitement de données. Concernant les solutions pour chaque partie on peut retrouver : pour le stockage (Kafka, ...), le traitement (Storm, Spark, Flink, Samza, ...) et pour la couche de service (Druid, Cassandra, Hive, HBase, ElasticSearch, ...).
 
 
 #### b. Functional Patterns
@@ -273,12 +291,8 @@ Les paires (clé, valeur) sont regroupé par clé et chaque groupe est envoyé �
 
 ##### Yarn (Yet Another Ressource Negotiatior)
 
-##### Kafka
+##### Fonctionnement de Kafka
 Rôle d'aggregation des flots de données.
-
-##### Stream processing engine
-
-###### Hazelcast Jet
 
 ### B2. Solutions technologiques concurrentes
  liste des solutions technologiques concurrentes mettant en œuvre une des approches techniques (de manière plus ou moins explicite), et parmi cette liste, le choix de deux solutions technologies Y et Z pour prototypage. Pour les solutions choisies, assurez-vous que vous êtes bien en mesure de les mettre en œuvre (prérequis accessibles, licences d’évaluation disponibles en cas de modèle payant, …).
