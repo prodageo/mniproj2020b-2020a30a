@@ -195,17 +195,11 @@ Quatre types de pattern ressortent lorsque l'on s'interesse à une application t
 
 ####  a. Streaming-Architecture Pattern
 
-Le traitement et l'analyse de données en temps reel est un problème qui est abordé dans la plupart des cas en adoptant l'une des trois principales architectures : Real-Time Streaming Architecture, Lambda Architecture et Kappa Architecture. L'architecture de streaming étant un ensemble définis de composants en intéraction mutuelle dans le but d'effectuer une série d'actions/taitement sur une série non bornée de données au moment de leur création.
-
-##### Real-Time Streaming Architecture
-<p align="center">
- <img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_RealTimeStreaming_Architecture.png" width="600">
-</p>
-<p align="center">Real-Time Streaming Architecture (NortonWorks)</p>
+Le traitement et l'analyse de données en temps reel est un problème qui est abordé dans la plupart des cas en adoptant l'une des quatre architectures : Hadoop, Lambda, Kappa et Smack. L'architecture de streaming étant un ensemble définis de composants en intéraction mutuelle dans le but d'effectuer une série d'actions/taitement sur une série non bornée de données au moment de leur création.
 
 ##### Lambda Architecture
 
-L'architecture Lambda est conçue pour effectuer en simultané un traitement de type batch tout en ayant un flot d'entré continu. L'architecture se découpe en trois couches.
+Imaginée par Nathan Marz et James Warren, l'architecture Lambda est conçue pour effectuer en simultané, un traitement de type batch tout en ayant un flot d'entré continu. L'architecture se découpe en trois couches.
 
 <p align="center">
 <img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_Lambda_Architecture.png" width="600">
@@ -225,9 +219,8 @@ Les bénéfices de  l'architecture Lambda réside dans :
 - La réduction du risque d'inconsistence dans les données puique les données sont traitées de façon séquentielle.
 - La facilité de l'architecture à traiter des volumes variables de données. L'architecture est basée sur des technologie pouvant évoluée en y ajoutant des noeuds de traitement dans chacune des couches.
 - La toléance à des pannes materielle, puisque comme dit precedement les technologies utilisées dans l'architectueres dont appel a plusieurs noeuds de traitement, il est donc facile de continuer le traitement en cas de pannes d'un des noeuds.
-- 
 
-L'avantage de l'architecture Lambda est la possibilité d'utiliser Hadoop pour stocker et traiter de grands dataset lors des analyses a posteriori (peu utile dans notre cas).
+Pour séparer les différentes parties de l'architecture donnant lieu à un choix de solution, on a la partie de Stockage (NoSQL, Kafka, HDFS, ...), la couche de batch (Spark, Flink, Hadoop MapReduce, ...), la couche en temps réel (Storm, Spark, Flink, Samza, ...) et la couche de service (Druid, ElasticSearch, Hive, HBase, Cassandra, ...).
 
 ##### Kappa Architecture
 
@@ -239,6 +232,11 @@ Proposée apres l'architecture Lambda, . Une serie de données est en premier li
 <p align="center">Kappa Architecture (NortonWorks)</p>
 
 L'avantage de Kappa par rapport à l'architecture Lambda et la possibilité de construire  une application de traitement en ayant la possibilité de modifier son code 
+
+##### Smack Architecture
+
+##### Synthèse des architectures
+
 
 #### b. Functional Patterns
 
@@ -260,16 +258,20 @@ Ajustement automatique de la répartition des données pour de meilleures perfor
 ##### Micro-Batching
 Afin de traiter un flot continu de données, Hadoop utilise le concept de micro-batching consistant à subdiviser le flot entrant en partitions puis envoyé à un system de traitement par batch. Une telle approche introduit une latence sur le traitement.
 
-##### HDFS
+##### HDFS (Hadoop Distributed File System)
+Stockage de données de façon distribuée sur un ensemble de machines.
+
+Un NameNode coordonne les DataNodes. Le NameNode possède un serveur web afin d'heberger des informations sur la répartion des données ou encore les fichiers contenus.
 
 ##### MapReduce
+
 Executé en 3 étapes (Map, Shuffle, Reduce), MapReduce est un model de programmation permettant le traitement grands ensemble de donnée.
 - <strong>Map</strong>:
 Les données en entrée sont partitionnées pour que ces nouveaux échantillons soient envoyé à un programme appliquant la fonction de mapping. La fonction de mapping produit des paires (clé, valeur).
 - <strong>Shuffle</strong>:
 Les paires (clé, valeur) sont regroupé par clé et chaque groupe est envoyé à la partie de Réduction correspondante.
 
-##### Yarn
+##### Yarn (Yet Another Ressource Negotiatior)
 
 ##### Kafka
 Rôle d'aggregation des flots de données.
