@@ -201,14 +201,19 @@ Le traitement et l'analyse de données en temps reel est un problème qui est ab
 <p align="center">
  <img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_RealTimeStreaming_Architecture.png" width="600">
 </p>
+<p align="center">Real-Time Streaming Architecture (NortonWorks)</p>
 
 ##### Kappa Architecture
+<p align="center">
 <img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_Kappa_Architecture.png" width="600">
-*Kappa Architecture*
+ </p>
+<p align="center">Kappa Architecture (NortonWorks)</p>
 
 ##### Lambda Architecture
+<p align="center">
 <img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_Lambda_Architecture.png" width="600">
-*Lambda Architecture*
+</p>
+<p align="center">Lambda Architecture (NortonWorks)</p>
 
 #### b. Functional Patterns
 
