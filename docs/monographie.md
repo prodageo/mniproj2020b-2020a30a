@@ -205,14 +205,27 @@ Le traitement et l'analyse de données en temps reel est un problème qui est ab
 
 ##### Lambda Architecture
 
-Conçue pour effectuer en simultané un traitement de type batch tout en ayant un flot d'entré continu, l'architecture Lambda se découpe en trois couches.
+L'architecture Lambda est conçue pour effectuer en simultané un traitement de type batch tout en ayant un flot d'entré continu. L'architecture se découpe en trois couches.
 
 <p align="center">
 <img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_Lambda_Architecture.png" width="600">
 </p>
 <p align="center">Lambda Architecture (NortonWorks)</p>
 
-La couche de Batch, stock les données pour effectuer un traitement réguliers. La couche de temps réel (SpeedLayer), possede deux rôles, elle traite les données pour calcule les vues incrémentales destinées fournir des données récentes aux vues de batch et elle supprime les vues obsolètes. Enfin la couche de service stock est expose les vues precedement créées.
+Avant le traitement des trois couches, entre en jeu la source de données. Celle-ci prend souvent la forme d'une source en streaming comme Apache-Kafka, cette-derniere n'est pas la source originale mais constitue un intermediaire de stockage afin de fournir simultanément en données, à la fois, la couche par Batch et la couche  de traitement en temps-réel. Cet approvisionnement simultané permet une indéxation faite en parallèle.
+
+La couche de Batch, stocke les données en batch en prévision d'une indexation. Dans une majorité des cas, l'enregistrement des données s'effectue simplement sous  format CSV. Pour preserver l'intégrité des données, le contenu des fichiers enregistrés ne sont modifiable que par ajout de contenu. La technologie la plus utilisée pour cette couche reste Apache Hadoop puisque elle permet l'ajout et l'enregistrement des données de manière efficace.
+
+La couche de service indexes les vues de batchs de façon incrémentale afin de les rendres disponible à l'utilisateur. L'indexation est effectuée da façon parallelisée afin d'optimiser le temps d'indexation. Les nouvelles données sont ajoutées à une file pour etre indexées lorsque un nouveau job se lance.
+
+La couche de temps réel (SpeedLayer), est un complément de la couche de service puisque elle indexe les données récentes qui n'ont pas encore été indexées par cette dernière.
+
+Les bénéfices de  l'architecture Lambda réside dans :
+- La réduction de la latence grâce à sa couche de service.
+- La réduction du risque d'inconsistence dans les données puique les données sont traitées de façon séquentielle.
+- La facilité de l'architecture à traiter des volumes variables de données. L'architecture est basée sur des technologie pouvant évoluée en y ajoutant des noeuds de traitement dans chacune des couches.
+- La toléance à des pannes materielle, puisque comme dit precedement les technologies utilisées dans l'architectueres dont appel a plusieurs noeuds de traitement, il est donc facile de continuer le traitement en cas de pannes d'un des noeuds.
+- 
 
 L'avantage de l'architecture Lambda est la possibilité d'utiliser Hadoop pour stocker et traiter de grands dataset lors des analyses a posteriori (peu utile dans notre cas).
 
