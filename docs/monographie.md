@@ -262,6 +262,13 @@ Les paires (clé, valeur) sont regroupé par clé et chaque groupe est envoyé �
 ### B2. Solutions technologiques concurrentes
  liste des solutions technologiques concurrentes mettant en œuvre une des approches techniques (de manière plus ou moins explicite), et parmi cette liste, le choix de deux solutions technologies Y et Z pour prototypage. Pour les solutions choisies, assurez-vous que vous êtes bien en mesure de les mettre en œuvre (prérequis accessibles, licences d’évaluation disponibles en cas de modèle payant, …).
  
+ - hadoop
+ - hive (solution implémentée par le groupe E02)
+ - spark sql
+ - spark streaming
+ - flink
+ - storm
+ 
 ### B3. Solutions retenues
 description technique des solutions choisies (X et Y). Pour chaque solution retenue (une solution par équipe de l’alliance), indiquer l’équipe qui prend en charge et fournir une description technique synthétique.
 
