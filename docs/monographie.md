@@ -198,10 +198,8 @@ Quatre types de pattern ressortent lorsque l'on s'interesse à une application t
 Le traitement et l'analyse de données en temps reel est un problème qui est abordé dans la plupart des cas par le biais d'une des trois architecture suivante.
 
 ##### Real-Time Streaming Architecture
-<figure align="center">
- <img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_RealTimeStreaming_Architecture.png" width="600"/>
+ <img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_RealTimeStreaming_Architecture.png" width="600" align="center/>
  <figcaption>Real-Time Streaming Architecture</figcaption>
-</figure>
 
 ##### Kappa Architecture
 <img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_Kappa_Architecture.png" width="600">
