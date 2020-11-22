@@ -199,9 +199,15 @@ Le traitement et l'analyse de données en temps reel est un problème qui est ab
 
 ##### Real-Time Streaming Architecture
 
+![RealTimeStreaming_Architecture](https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_RealTimeStreaming_Architecture.png)
+
 ##### Kappa Architecture
 
+![Kappa_Architecture](https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_Kappa_Architecture.png)
+
 ##### Lambda Architecture
+
+![Lambda_Architecture](https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_Lambda_Architecture.png)
 
 #### b. Functional Patterns
 
@@ -235,9 +241,9 @@ Implémentation open-source populaire du MapReduce
 Executé en 3 étapes (Map, Shuffle, Reduce), MapReduce est un model de programmation permettant le traitement grands ensemble de donnée.
 - <strong>Map</strong>:
 Les données en entrée sont partitionnées pour que ces nouveaux échantillons soient envoyé à un programme appliquant la fonction de mapping. La fonction de mapping produit des paires (clé, valeur).
-- <srong>Shuffle</strong>:
+- <strong>Shuffle</strong>:
 Les paires (clé, valeur) sont regroupé par clé et chaque groupe est envoyé à la partie de Réduction correspondante.
-- <strong>
+
 
 ##### Yarn
 
