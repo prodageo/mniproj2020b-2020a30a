@@ -195,7 +195,7 @@ Quatre types de pattern ressortent lorsque l'on s'interesse à une application t
 
 ####  a. Architecture Pattern
 
-Le traitement et l'analyse de données en temps reel est un problème qui est abordé dans la plupart des cas par le biais d'une des trois architecture suivante.
+Le traitement et l'analyse de données en temps reel est un problème qui est abordé dans la plupart des cas en adomptant l'une des trois principales architectures : Real-Time Streaming Architecture, Lambda Architecture et Kappa Architecture.
 
 ##### Real-Time Streaming Architecture
 <p align="center">
@@ -215,6 +215,9 @@ Conçue pour effectuer en simultané un traitement de type batch tout en ayant u
 La couche de Batch, stock les données pour effectuer un traitement réguliers. La couche de temps réel (SpeedLayer), possede deux rôles, elle traite les données pour calcule les vues incrémentales destinées fournir des données récentes aux vues de batch et elle supprime les vues obsolètes. Enfin la couche de service stock est expose les vues precedement créées.
 
 ##### Kappa Architecture
+
+Proposée apres l'architecture Lambda, . Une serie de données est en premier lieu stockée dans une messaging engine (Apache ou Kafka) qui lit, formate les données et les stocks dans une base de données disponible pour le traitement final. L'architecture Kappa fait office d'alternative simplifiée à l'architecture Lambda, puisque les deux architecture utilisent le même ensemble de technnologies mais Kappa se démarque par le fait que les données sont considérées comme un flot, la partie de traitement par flot de Kappa est ainsi la seule partie de transformation des données.
+
 <p align="center">
 <img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_Kappa_Architecture.png" width="600">
  </p>
@@ -237,8 +240,6 @@ Ajustement automatique de la répartition des données pour de meilleures perfor
 
 #### c. Techniques
 
-##### 1) Hadoop Online
-
 ##### Micro-Batching
 Afin de traiter un flot continu de données, Hadoop utilise le concept de micro-batching consistant à subdiviser le flot entrant en partitions puis envoyé à un system de traitement par batch. Une telle approche introduit une latence sur le traitement.
 
@@ -251,10 +252,9 @@ Les données en entrée sont partitionnées pour que ces nouveaux échantillons 
 - <strong>Shuffle</strong>:
 Les paires (clé, valeur) sont regroupé par clé et chaque groupe est envoyé à la partie de Réduction correspondante.
 
-
 ##### Yarn
 
-
+##### Kafka
 
 ### B2. Solutions technologiques concurrentes
  liste des solutions technologiques concurrentes mettant en œuvre une des approches techniques (de manière plus ou moins explicite), et parmi cette liste, le choix de deux solutions technologies Y et Z pour prototypage. Pour les solutions choisies, assurez-vous que vous êtes bien en mesure de les mettre en œuvre (prérequis accessibles, licences d’évaluation disponibles en cas de modèle payant, …).
