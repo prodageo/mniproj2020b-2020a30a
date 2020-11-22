@@ -203,17 +203,22 @@ Le traitement et l'analyse de données en temps reel est un problème qui est ab
 </p>
 <p align="center">Real-Time Streaming Architecture (NortonWorks)</p>
 
+##### Lambda Architecture
+
+Conçue pour effectuer en simultané un traitement de type batch tout en ayant un flot d'entré continu, l'architecture Lambda se découpe en trois couches.
+
+<p align="center">
+<img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_Lambda_Architecture.png" width="600">
+</p>
+<p align="center">Lambda Architecture (NortonWorks)</p>
+
+La couche de Batch, stock les données pour effectuer un traitement réguliers. La couche de temps réel (SpeedLayer), possede deux rôles, elle traite les données pour calcule les vues incrémentales destinées fournir des données récentes aux vues de batch et elle supprime les vues obsolètes. Enfin la couche de service stock est expose les vues precedement créées.
+
 ##### Kappa Architecture
 <p align="center">
 <img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_Kappa_Architecture.png" width="600">
  </p>
 <p align="center">Kappa Architecture (NortonWorks)</p>
-
-##### Lambda Architecture
-<p align="center">
-<img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_Lambda_Architecture.png" width="600">
-</p>
-<p align="center">Lambda Architecture (NortonWorks)</p>
 
 #### b. Functional Patterns
 
@@ -230,7 +235,7 @@ Ajustement automatique de la répartition des données pour de meilleures perfor
 
 ##### 3) Out-Of-Sequence Events
 
-#### c. Frameworks
+#### c. Techniques
 
 ##### 1) Hadoop Online
 
@@ -238,10 +243,6 @@ Ajustement automatique de la répartition des données pour de meilleures perfor
 Afin de traiter un flot continu de données, Hadoop utilise le concept de micro-batching consistant à subdiviser le flot entrant en partitions puis envoyé à un system de traitement par batch. Une telle approche introduit une latence sur le traitement.
 
 ##### HDFS
-
-###### Apache Hadoop
-
-Implémentation open-source populaire du MapReduce
 
 ##### MapReduce
 Executé en 3 étapes (Map, Shuffle, Reduce), MapReduce est un model de programmation permettant le traitement grands ensemble de donnée.
@@ -252,10 +253,6 @@ Les paires (clé, valeur) sont regroupé par clé et chaque groupe est envoyé �
 
 
 ##### Yarn
-
-##### 2) Spark Streaming
-
-##### 3) Storm
 
 
 
