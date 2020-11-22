@@ -198,16 +198,20 @@ Quatre types de pattern ressortent lorsque l'on s'interesse à une application t
 Le traitement et l'analyse de données en temps reel est un problème qui est abordé dans la plupart des cas par le biais d'une des trois architecture suivante.
 
 ##### Real-Time Streaming Architecture
-
-![RealTimeStreaming_Architecture](https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_RealTimeStreaming_Architecture.png "Real-Time Streaming Architecture")
+<div style="text-align:center">
+<figure>
+ <img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_RealTimeStreaming_Architecture.png" width="600"/>
+ <figcaption>Real-Time Streaming Architecture</figcaption>
+</figure>
+</div>
 
 ##### Kappa Architecture
-
-![Kappa_Architecture](https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_Kappa_Architecture.png "Kappa Architecture")
+<img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_Kappa_Architecture.png" width="600">
+*Kappa Architecture*
 
 ##### Lambda Architecture
-
-![Lambda_Architecture](https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_Lambda_Architecture.png "Lambda Architecture")
+<img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_Lambda_Architecture.png" width="600">
+*Lambda Architecture*
 
 #### b. Functional Patterns
 
