@@ -193,9 +193,9 @@ texte de 2 à 3 pages qui montre les principales caractéristiques des approches
 
 Quatre types de pattern ressortent lorsque l'on s'interesse à une application traitant un flot continu (Streaming) de données. Ici nous écarterons délibérément le dernier pattern, Data Security, puisque ce n'est pas un facteur qualité que nous avons choisi de traiter en priorité.
 
-####  a. Architecture Pattern
+####  a. Streaming-Architecture Pattern
 
-Le traitement et l'analyse de données en temps reel est un problème qui est abordé dans la plupart des cas en adomptant l'une des trois principales architectures : Real-Time Streaming Architecture, Lambda Architecture et Kappa Architecture.
+Le traitement et l'analyse de données en temps reel est un problème qui est abordé dans la plupart des cas en adoptant l'une des trois principales architectures : Real-Time Streaming Architecture, Lambda Architecture et Kappa Architecture. L'architecture de streaming étant un ensemble définis de composants en intéraction mutuelle dans le but d'effectuer une série d'actions/taitement sur une série non bornée de données au moment de leur création.
 
 ##### Real-Time Streaming Architecture
 <p align="center">
@@ -214,6 +214,8 @@ Conçue pour effectuer en simultané un traitement de type batch tout en ayant u
 
 La couche de Batch, stock les données pour effectuer un traitement réguliers. La couche de temps réel (SpeedLayer), possede deux rôles, elle traite les données pour calcule les vues incrémentales destinées fournir des données récentes aux vues de batch et elle supprime les vues obsolètes. Enfin la couche de service stock est expose les vues precedement créées.
 
+L'avantage de l'architecture Lambda est la possibilité d'utiliser Hadoop pour stocker et traiter de grands dataset lors des analyses a posteriori (peu utile dans notre cas).
+
 ##### Kappa Architecture
 
 Proposée apres l'architecture Lambda, . Une serie de données est en premier lieu stockée dans une messaging engine (Apache ou Kafka) qui lit, formate les données et les stocks dans une base de données disponible pour le traitement final. L'architecture Kappa fait office d'alternative simplifiée à l'architecture Lambda, puisque les deux architecture utilisent le même ensemble de technnologies mais Kappa se démarque par le fait que les données sont considérées comme un flot, la partie de traitement par flot de Kappa est ainsi la seule partie de transformation des données.
@@ -222,6 +224,8 @@ Proposée apres l'architecture Lambda, . Une serie de données est en premier li
 <img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/NortonWorks_Kappa_Architecture.png" width="600">
  </p>
 <p align="center">Kappa Architecture (NortonWorks)</p>
+
+L'avantage de Kappa par rapport à l'architecture Lambda et la possibilité de construire  une application de traitement en ayant la possibilité de modifier son code 
 
 #### b. Functional Patterns
 
@@ -255,6 +259,11 @@ Les paires (clé, valeur) sont regroupé par clé et chaque groupe est envoyé �
 ##### Yarn
 
 ##### Kafka
+Rôle d'aggregation des flots de données.
+
+##### Stream processing engine
+
+###### Hazelcast Jet
 
 ### B2. Solutions technologiques concurrentes
  liste des solutions technologiques concurrentes mettant en œuvre une des approches techniques (de manière plus ou moins explicite), et parmi cette liste, le choix de deux solutions technologies Y et Z pour prototypage. Pour les solutions choisies, assurez-vous que vous êtes bien en mesure de les mettre en œuvre (prérequis accessibles, licences d’évaluation disponibles en cas de modèle payant, …).
