@@ -304,7 +304,7 @@ Rôle d'aggregation des flots de données.
  
  #### Flink
  
- Flink est un moteur de traitement des flux de données open source développé par Apache. Les applications Flink peuvent être développé en Java, Python, Scala ou SQL et seront compilées pour tourner dans une VM Java. Flink est fait pour tourner sur des grappes d'appareils et traiter des flux de données à très haute vitesse, avec une latence faible. Les difféntes tâches/opérations peuvent être parallisées et distubuées, ce qui rend cette technologie très scalable.
+ Flink est un moteur de traitement des flux de données open source développé par Apache. Les applications Flink peuvent être développé en Java, Python, Scala ou SQL et seront compilées pour tourner dans une VM Java. Flink est fait pour tourner sur des grappes d'appareils et traiter des flux de données à très haute vitesse, avec une latence faible. Les difféntes tâches/opérations peuvent être parallisées et distubuées, ce qui rend cette technologie très scalable. Globalement l'écosystème Flink est assez étendu, ce qui donne accès aux applications de machine learning, de graphe, etc
  
  ![Archi Flink](https://flink.apache.org/img/flink-home-graphic.png)
  
