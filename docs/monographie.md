@@ -326,7 +326,7 @@ Flink est assez tolérant au niveau des "pannes". En effet, il permet d'éviter 
  
 Les applications sont construites d'une façon assez particulière. Elles sont en effet conçues comme une topologie représentée sous forme de graphe. Comme vous pouvez le voir ci-dessus, les spouts et les bolts constituent les sommet de ce graphe.
 
-Storm est capable de paralléliser les différents composants sur un ou plusieurs worker. Un worker étant simplement un JVM s'éxécitant sur une des machines du cluster.
+Storm est capable de distribuer, et éventuellement paralléliser, les différents composants sur un ou plusieurs worker. Un worker étant simplement une JVM s'éxécutant sur une des machines du cluster.
 
 ![Strom parallélisme](https://i0.wp.com/blog.zenika.com/wp-content/uploads/2014/02/figure-3-storm-parallelism_m-1.jpg?ssl=1)
  
