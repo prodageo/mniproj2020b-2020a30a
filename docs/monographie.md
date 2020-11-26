@@ -299,10 +299,37 @@ Rôle d'aggregation des flots de données.
  
  - hadoop => Zoé
  - hive (solution implémentée par le groupe E02) => Zoé
- - spark sql => Cassandre
- - spark streaming => Cassandre
  - flink => David
  - storm => David
+ 
+ #### Spark 
+ 
+ Spark est un framework open-source de calcul distribué (cf wikipédia). A l’origine développé par l’université de Berkeley en 2009, il fait aujourd’hui parti de la fondation Apache où il est l’un des projets les plus actifs. Il est très populaire car il exécute ses calculs en temps-réel sans stockage d’information (contrairement à Hadoop). De ce fait, il est beaucoup plus rapide qu’Hadoop (cent fois plus rapide) et est utilisé par de nombreuses entreprises telles que Netflix, Yahoo ou eBay. 
+Spark est écrit en Scala et est plus performant avec celui-ci mais il est également possible d’écrire ses programmes en Java ou Python. Il est composé d’un ensemble d’outils, dont certains peuvent être utilisés séparément. La base est Spark Streaming qui permet de faire le calcul en temps réel. Vient ensuite Spark SQL permettant d’exécuter les requêtes sous forme de requêtes SQL. Ce sont les deux parties de Spark que nous utiliserons pour ce projet (ensemble ou séparément). Il y a aussi Spark Graph X pour le traitement d’informations issues de graphes et Spark Mlib qui est une bibliothèque contenant des algorithmes classiques d’apprentissage (classification, clustering,…). Ces deux dernières parties de Spark sont moins utilisées et ne sont pas réellement pertinentes pour notre projet, nous ne les détaillerons pas davantage. 
+
+![Spark tools](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Sch%C3%A9ma_d%C3%A9tail_outils_spark.png/377px-Sch%C3%A9ma_d%C3%A9tail_outils_spark.png)
+
+Spark s’appuie sur le modèle d’architecture « maître-esclave. » Le « maître » s’occupe de répartir les tâches et les « esclaves » de les accomplir.  
+
+![Spark architecture](https://meritis.fr/wp-content/uploads/2018/11/image3.png)
+
+Le « maître » contient le SparkContext qui est le point d’accès à toutes les fonctionnalités de Spark. On voit bien ici que le calcul est parallélisé avec différentes « esclaves ». Plus le nombre d’« esclaves » est important (avec chaque « esclave » sur une machine différente) plus le calcul pourra être effectué rapidement. 
+
+##### Spark Streaming
+
+Spark Streaming est utilisé notamment pour le traitement de flux continue. Des informations (par exemple des tweets) émis en continue sont envoyées par des outils comme Kafka à Spark Streaming qui va ensuite process ces données en les découpant en plusieurs batch plusieurs données accumulées pendant un certain laps de temps). Ce n’est pas donc pas totalement du streaming puisque les informations sont tout de même séparées en batch, nous sommes donc entre Hadoop, qui ne fait pas du tout de temps réel et des outils comme Flink qui font du 100 % temps réel sans micro-batch. 
+Une fois les informations découpées en micro-batch, elles sont traitées par Spark Engine, le cœur de Spark.  
+
+![Spark Streaming architecture](https://spark.apache.org/docs/2.2.0/img/streaming-arch.png)
+
+##### Spark SQL 
+
+Spark SQL permet d’utiliser plus facilement Spark. En effet le langage SQL est un vieux langage très largement répandu pour les bases données. Ainsi pour explorer des données et en sélectionner il est plus simple de créer une requête SQL plutôt que d’apprendre un nouveau langage et même une nouvelle façon de réfléchir aux algorithmes. Dans cette optique de facilité, Spark SQL a été crée. S’il y a certaines différences avec du SQL classique, la syntaxe reste similaire. De plus il est utilisable avec JDBC, un connecteur de bases de données très connu en Java. 
+En utilisant Spark SQL on peut avoir l’impression que les données sont stockées sous formes de tables comme dans des bases de données relationnelles classiques mais il s’agit seulement d’une projection faite pour faciliter la vie du programmeur. 
+
+![Spark SQL architecture](https://blog.bi-geek.com/wp-content/uploads/2018/06/Arquitectura-Spark-SQL.png)
+
+Comme on peut le voir sur le graphe ci-dessus, Spark SQL contient Catalyst Optimizer qui permet de davantage optimiser les calculs mais aussi de proposer aux développeurs de créer eux-mêmes des fonctions pour optimiser les résultats. Il y a également DataFrame Api. En effet les informations renvoyées suite à la requête SQL de l’utilisateur le sont sous forme de DataFrame, qui est lui-même une forme de Data set. Cela ressemble à une table car une DataFrame est un ensemble de données rangées par colonnes, elle-même nommées. Cependant elles sont davantage optimisées que les tables et permettent davantage de libertés. Un des points importants du Big Data est la variété des données à traiter, une DataFrame permet de stocker des informations venant de diverses sources et sous divers formats. 
  
 ### B3. Solutions retenues
 description technique des solutions choisies (X et Y). Pour chaque solution retenue (une solution par équipe de l’alliance), indiquer l’équipe qui prend en charge et fournir une description technique synthétique.
