@@ -302,6 +302,12 @@ Rôle d'aggregation des flots de données.
  - flink => David
  - storm => David
  
+ #### Flink
+ 
+ Flink est un framework open-source développé par Apache eux-même. Les programmes Flink peuvent être développé en Java, Pyhton 
+ ![Archi Flink]( https://flink.apache.org/img/flink-home-graphic.png)
+
+ 
  #### Spark 
  
  Spark est un framework open-source de calcul distribué (cf wikipédia). A l’origine développé par l’université de Berkeley en 2009, il fait aujourd’hui parti de la fondation Apache où il est l’un des projets les plus actifs. Il est très populaire car il exécute ses calculs en temps-réel sans stockage d’information (contrairement à Hadoop). De ce fait, il est beaucoup plus rapide qu’Hadoop (cent fois plus rapide) et est utilisé par de nombreuses entreprises telles que Netflix, Yahoo ou eBay. 
