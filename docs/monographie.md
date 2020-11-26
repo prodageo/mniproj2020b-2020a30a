@@ -316,7 +316,7 @@ Flink est assez tolérant au niveau des "pannes". En effet, il permet d'éviter 
 
  #### Storm
  
- Storm est un moteur Java de traitement de flux distribué, open source depuis son acquisition par Twitter. Storm gère les données sous formes de tuples. La strcuture de ces tuples étant dynamique, il n'y a pas besoin de déclarer explicitement la structure d'une donnée, les évolutions sont ainsi simplifiées.
+ Storm est un moteur Java de traitement de flux distribué, open source depuis son acquisition par Twitter. Storm gère les données sous formes de tuples. La strcuture de ces tuples étant dynamique, il n'y a pas besoin de déclarer explicitement la structure d'une donnée, les évolutions sont ainsi simplifiées. STorm permet le traitement de données en temps réel.
  
  Une pipeline Storm utilise :
   * Des **spouts**, le points de départs du flux de traitement. Les spouts permettent de charger et éventuellement mettre en forme les données
@@ -324,7 +324,11 @@ Flink est assez tolérant au niveau des "pannes". En effet, il permet d'éviter 
  
  ![Storm fonctionnement](https://blog.octo.com/wp-content/uploads/2013/09/Capture-decran-2013-09-26-a-23.11.15.png)
  
-Les applications sont construire d'un façon assez particulière. Elles sont en effet conçues comme une typologies représentée sous forme de graphe. Comme vous pouvez le voir ci-dessus les spouts et les bolts constituent les sommet de ce graphe.
+Les applications sont construites d'une façon assez particulière. Elles sont en effet conçues comme une topologie représentée sous forme de graphe. Comme vous pouvez le voir ci-dessus, les spouts et les bolts constituent les sommet de ce graphe.
+
+Storm est capable de paralléliser les différents composants sur un ou plusieurs worker. Un worker étant simplement un JVM s'éxécitant sur une des machines du cluster.
+
+![Strom parallélisme](https://i0.wp.com/blog.zenika.com/wp-content/uploads/2014/02/figure-3-storm-parallelism_m-1.jpg?ssl=1)
  
  #### Spark 
  
