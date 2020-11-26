@@ -316,6 +316,10 @@ Flink est assez tolérant au niveau des "pannes". En effet, il permet d'éviter 
 
  #### Storm
  
+ Storm est un moteur Java de traitement de flux distribué, open source depuis son acquisition par Twitter. Storm gère les données sous formes de tuples. La strcuture de ces tuples étant dynamique, il n'y a pas besoin de déclarer explicitement la structure d'une donnée, les évolutions sont ainsi siplifiées.
+ 
+ Ca me casse les couilles
+ 
  #### Spark 
  
  Spark est un framework open-source de calcul distribué (cf wikipédia). A l’origine développé par l’université de Berkeley en 2009, il fait aujourd’hui parti de la fondation Apache où il est l’un des projets les plus actifs. Il est très populaire car il exécute ses calculs en temps-réel sans stockage d’information (contrairement à Hadoop). De ce fait, il est beaucoup plus rapide qu’Hadoop (cent fois plus rapide) et est utilisé par de nombreuses entreprises telles que Netflix, Yahoo ou eBay. 
