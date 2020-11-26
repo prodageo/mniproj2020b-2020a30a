@@ -304,8 +304,9 @@ Rôle d'aggregation des flots de données.
  
  #### Flink
  
- Flink est un framework open-source développé par Apache eux-même. Les programmes Flink peuvent être développé en Java, Pyhton 
- ![Archi Flink]( https://flink.apache.org/img/flink-home-graphic.png)
+ Flink est un framework open-source développé par Apache eux-même. Les applications Flink peuvent être développé en Java, Python, Scala ou SQL et seront compilées pour tourner dans une VM Java sur un cluster. Flink est fait pour tourner sur des grappes d'appareils et traiter des calculs à très haute vitesse.
+ ![Archi Flink](https://flink.apache.org/img/flink-home-graphic.png)
+ Flink permet de gérer des calculs avec état mais ne comprend pas de stockage de données. Cependant, des conencteurs sont disponibles pour pouvoir se connecter à la plupart des sources de données.
 
  
  #### Spark 
