@@ -316,9 +316,13 @@ Flink est assez tolérant au niveau des "pannes". En effet, il permet d'éviter 
 
  #### Storm
  
- Storm est un moteur Java de traitement de flux distribué, open source depuis son acquisition par Twitter. Storm gère les données sous formes de tuples. La strcuture de ces tuples étant dynamique, il n'y a pas besoin de déclarer explicitement la structure d'une donnée, les évolutions sont ainsi siplifiées.
+ Storm est un moteur Java de traitement de flux distribué, open source depuis son acquisition par Twitter. Storm gère les données sous formes de tuples. La strcuture de ces tuples étant dynamique, il n'y a pas besoin de déclarer explicitement la structure d'une donnée, les évolutions sont ainsi simplifiées.
  
- ![Storm fonctinnement]https://blog.octo.com/wp-content/uploads/2013/09/Capture-decran-2013-09-26-a-23.11.15.png
+ Une pipeline Storm utilise :
+  * Des **spouts**, le points de départs du flux de traitement. Les spouts permettent de charger et éventuellement mettre en forme les données
+  * Des **bolts**, les traitements. Le sbolts constituent le coeur de la chaîne de traitement : hashage, prédiction, écriture dans une BD, ...
+ 
+ ![Storm fonctionnement](https://blog.octo.com/wp-content/uploads/2013/09/Capture-decran-2013-09-26-a-23.11.15.png)
  
  Ca me casse les couilles
  
