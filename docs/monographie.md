@@ -324,7 +324,7 @@ Flink est assez tolérant au niveau des "pannes". En effet, il permet d'éviter 
  
  ![Storm fonctionnement](https://blog.octo.com/wp-content/uploads/2013/09/Capture-decran-2013-09-26-a-23.11.15.png)
  
- Ca me casse les couilles
+Les applications sont construire d'un façon assez particulière. Elles sont en effet conçues comme une typologies représentée sous forme de graphe. Comme vous pouvez le voir ci-dessus les spouts et les bolts constituent les sommet de ce graphe.
  
  #### Spark 
  
