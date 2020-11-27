@@ -294,6 +294,12 @@ Les paires (clé, valeur) sont regroupé par clé et chaque groupe est envoyé �
 ##### Fonctionnement de Kafka
 Rôle d'aggregation des flots de données.
 
+<p align="center">
+<img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/Overview_of_Apache_Kafka_architecture.svg" width="600">
+</p>
+<p align="center">Apache Kafka Architecture (NortonWorks)</p>
+
+
 ### B2. Solutions technologiques concurrentes
  liste des solutions technologiques concurrentes mettant en œuvre une des approches techniques (de manière plus ou moins explicite), et parmi cette liste, le choix de deux solutions technologies Y et Z pour prototypage. Pour les solutions choisies, assurez-vous que vous êtes bien en mesure de les mettre en œuvre (prérequis accessibles, licences d’évaluation disponibles en cas de modèle payant, …).
  
