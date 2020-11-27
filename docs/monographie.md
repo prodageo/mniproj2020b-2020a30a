@@ -274,7 +274,8 @@ Ajustement automatique de la répartition des données pour de meilleures perfor
 #### d. Techniques
 
 ##### Micro-Batching
-Afin de traiter un flot continu de données, Hadoop utilise le concept de micro-batching consistant à subdiviser le flot entrant en partitions puis envoyé à un system de traitement par batch. Une telle approche introduit une latence sur le traitement.
+Afin de traiter un flot continu de données, Hadoop utilise le concept de micro-batching consistant à regrouper les tâches entrantes à exécuter en petits lots afin d'obtenir une partie des avantages de performance du traitement par lots, sans trop augmenter le temps de latence pour l'achèvement de chaque tâche. 
+Le micro-batching est généralement appliqué dans les systèmes où la quantité de tâches entrantes est variable. Le système saisit toutes les tâches entrantes reçues et les exécute par lots. Ce processus est exécuté de manière répétitive. 
 
 ##### HDFS (Hadoop Distributed File System)
 HDFS (Hadoop Distributed File System) est un système de fichier distribué permettant de stocker et de récupérer des fichiers en un temps très court. En combinaison avec <strong>YARN</strong>, ce système augmente les possibilités de gestion de données du cluster HDFS Hadoop et permet donc de traiter le Big Data. Le système est capable de gérer des milliers de nœuds sans intervention d’un opérateur. Il permet de bénéficier simultanément des avantages du computing parallèle et du computing distribué. HDFS peut être lancé sur commodity hardware, ce qui le rend très tolérant aux erreurs. Les serveurs sont connectés et communiquent par le biais de protocoles TCP.
