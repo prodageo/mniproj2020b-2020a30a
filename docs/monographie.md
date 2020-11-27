@@ -281,15 +281,21 @@ Le micro-batching est généralement appliqué dans les systèmes où la quantit
 HDFS (Hadoop Distributed File System) est un système de fichier distribué permettant de stocker et de récupérer des fichiers en un temps très court. En combinaison avec <strong>YARN</strong>, ce système augmente les possibilités de gestion de données du cluster HDFS Hadoop et permet donc de traiter le Big Data. Le système est capable de gérer des milliers de nœuds sans intervention d’un opérateur. Il permet de bénéficier simultanément des avantages du computing parallèle et du computing distribué. HDFS peut être lancé sur commodity hardware, ce qui le rend très tolérant aux erreurs. Les serveurs sont connectés et communiquent par le biais de protocoles TCP.
 
 <p align="center">
-<img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/hdfs_architecture.jpg" width="300">
+<img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/hdfs_architecture.jpg" width="400">
 </p>
 <p align="center">Fonctionnement HDFS</p>
 
 Le Hadoop Distributed File System (HDFS) repose sur une architecture maître/esclave.Chaque cluster comporte un Namenode individuel faisant office de serveur principal. Ainsi, les clients peuvent accéder aux bonnes données au bon moment. Le Namenode se charge également d’ouvrir, fermer, renommer les fichiers ou même les dossiers. Chaque nœud comporte également un ou plusieurs Datanode, auquel est assignée la tâche de gérer le stockage associé au nœud. Les blocs sont cartographiés par le Namenode pour les Datanodes. Le format suit un système de hiérarchisation de fichiers. Il semble bon de noter que la réplication de données est une partie essentielle du format HDFS
 
 ##### MapReduce
+MapReduce est un Framework de traitement de données en clusters. il permet de répartir les tâches de traitement de données entre différents ordinateurs, pour ensuite réduire les résultats en une seule synthèse.
 
-Executé en 3 étapes (Map, Shuffle, Reduce), MapReduce est un model de programmation permettant le traitement grands ensemble de donnée.
+<p align="center">
+<img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/mapreduce-fonctionnement.jpg" width="400">
+</p>
+<p align="center">Fonctionnement de Map reduce</p>
+
+Il est executé en 3 étapes (Map, Shuffle, Reduce), MapReduce est un model de programmation permettant le traitement grands ensemble de donnée.
 - <strong>Map</strong>:
 Les données en entrée sont partitionnées pour que ces nouveaux échantillons soient envoyé à un programme appliquant la fonction de mapping. La fonction de mapping produit des paires (clé, valeur).
 - <strong>Shuffle</strong>:
