@@ -262,16 +262,16 @@ Le service de stockage de message de l'architecture Kappa gade les données de f
 
 #### c. Data Management Patterns
 
-##### 1) External Lookup
+##### 1. External Lookup
 
 Rapide et Dynamique, l'external Lookup minimise le temps de traitement et le risque d'un bloquage du flot de données sur un composant du system tout en maintenant un rendement de sortie élevé.
 
-##### 2) Responsive Shuffling
+##### 2. Responsive Shuffling
 Ajustement automatique de la répartition des données pour de meilleures performances lors de pic d'activité tout en variant le biais des données.
 
-##### 3) Out-Of-Sequence Events
+##### 3. Out-Of-Sequence Events
 
-#### c. Techniques
+#### d. Techniques
 
 ##### Micro-Batching
 Afin de traiter un flot continu de données, Hadoop utilise le concept de micro-batching consistant à subdiviser le flot entrant en partitions puis envoyé à un system de traitement par batch. Une telle approche introduit une latence sur le traitement.
@@ -290,11 +290,13 @@ Les données en entrée sont partitionnées pour que ces nouveaux échantillons 
 Les paires (clé, valeur) sont regroupé par clé et chaque groupe est envoyé à la partie de Réduction correspondante.
 
 ##### Yarn (Yet Another Ressource Negotiatior)
+Fait office d'interface entre <strong>MapReduce</strong> et <strong>HDFS</strong>. MapReduce utilise YARN pour distribuer des requêtes (appelé jobs) dans le cluster.
+YARN est basé sur une architecture maître(ResourceManager ou JobTracker)/esclave(NodeManager ou TaskTracker). Chaque machine esclave exécute un démon NodeManager pour YARN.
 
+ 
 ##### Fonctionnement de Kafka
 
 Utilisé pour la mise en place de « data pipeline » temps réel Kafka permet le traitement complexe et en temps réel de données.
-
 <p align="center">
 <img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/Overview_of_Apache_Kafka_architecture.svg" width="600">
 </p>
