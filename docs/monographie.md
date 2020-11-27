@@ -277,9 +277,14 @@ Ajustement automatique de la répartition des données pour de meilleures perfor
 Afin de traiter un flot continu de données, Hadoop utilise le concept de micro-batching consistant à subdiviser le flot entrant en partitions puis envoyé à un system de traitement par batch. Une telle approche introduit une latence sur le traitement.
 
 ##### HDFS (Hadoop Distributed File System)
-Stockage de données de façon distribuée sur un ensemble de machines.
+HDFS (Hadoop Distributed File System) est un système de fichier distribué permettant de stocker et de récupérer des fichiers en un temps très court. En combinaison avec <strong>YARN</strong>, ce système augmente les possibilités de gestion de données du cluster HDFS Hadoop et permet donc de traiter le Big Data. Le système est capable de gérer des milliers de nœuds sans intervention d’un opérateur. Il permet de bénéficier simultanément des avantages du computing parallèle et du computing distribué. HDFS peut être lancé sur commodity hardware, ce qui le rend très tolérant aux erreurs. Les serveurs sont connectés et communiquent par le biais de protocoles TCP.
 
-Un NameNode coordonne les DataNodes. Le NameNode possède un serveur web afin d'heberger des informations sur la répartion des données ou encore les fichiers contenus.
+<p align="center">
+<img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/hdfs_architecture.jpg" width="300">
+</p>
+<p align="center">Fonctionnement HDFS</p>
+
+Le Hadoop Distributed File System (HDFS) repose sur une architecture maître/esclave.Chaque cluster comporte un Namenode individuel faisant office de serveur principal. Ainsi, les clients peuvent accéder aux bonnes données au bon moment. Le Namenode se charge également d’ouvrir, fermer, renommer les fichiers ou même les dossiers. Chaque nœud comporte également un ou plusieurs Datanode, auquel est assignée la tâche de gérer le stockage associé au nœud. Les blocs sont cartographiés par le Namenode pour les Datanodes. Le format suit un système de hiérarchisation de fichiers. Il semble bon de noter que la réplication de données est une partie essentielle du format HDFS
 
 ##### MapReduce
 
