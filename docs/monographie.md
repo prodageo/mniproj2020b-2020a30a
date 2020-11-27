@@ -297,7 +297,7 @@ Rôle d'aggregation des flots de données.
 <p align="center">
 <img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/Overview_of_Apache_Kafka_architecture.svg" width="600">
 </p>
-<p align="center">Apache Kafka Architecture (NortonWorks)</p>
+<p align="center">Apache Kafka Architecture </p>
 
 
 ### B2. Solutions technologiques concurrentes
