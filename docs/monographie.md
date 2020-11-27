@@ -292,13 +292,20 @@ Les paires (clé, valeur) sont regroupé par clé et chaque groupe est envoyé �
 ##### Yarn (Yet Another Ressource Negotiatior)
 
 ##### Fonctionnement de Kafka
-Rôle d'aggregation des flots de données.
+
+Utilisé pour la mise en place de « data pipeline » temps réel Kafka permet le traitement complexe et en temps réel de données.
 
 <p align="center">
 <img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/Overview_of_Apache_Kafka_architecture.svg" width="600">
 </p>
 <p align="center">Apache Kafka Architecture </p>
 
+Il comprend cinq APIs de base :
+* <strong>Producer API</strong> permet aux applications d'envoyer des flux de données aux topics du cluster Kafka.
+* <strong>Consumer API</strong> permet aux applications de lire des flux de données à partir des topics du cluster Kafka.
+* <strong>Streams API</strong> permet de transformer des flux de données en topic de sortie.
+* <strong>Connect API</strong> permet d'implémenter des connecteurs qui récupèrent les données d'un système source ou d'une application vers Kafka ou qui poussent de Kafka vers une application.
+* <strong>AdminClient API</strong> permet de gérer et d'inspecter les topics, les brokers, et les autres objets Kafka .
 
 ### B2. Solutions technologiques concurrentes
  liste des solutions technologiques concurrentes mettant en œuvre une des approches techniques (de manière plus ou moins explicite), et parmi cette liste, le choix de deux solutions technologies Y et Z pour prototypage. Pour les solutions choisies, assurez-vous que vous êtes bien en mesure de les mettre en œuvre (prérequis accessibles, licences d’évaluation disponibles en cas de modèle payant, …).
