@@ -406,6 +406,15 @@ description technique des solutions choisies (X et Y). Pour chaque solution rete
 
 ### B4. Liste de métriques
  liste de métriques permettant de comparer (benchmarker) les solutions choisies tout particulièrement sur les facteurs retenus en conclusion de la partie A. Dans la partie A6, des métriques ont pu être pré-sélectionnées. Il s’agit dans cette partie B4 de s’interroger sur la faisabilité de la mesure des métriques et pour celles qui seront retenues (de l’ordre de 3) de décrire dans le détail la procédure de mesure.
+ 
+ - Métrique 1 : Quantité de RAM utilisée
+En lien avec la sous-caractéristique 1 (Efficacité en ressources), on mesurera la quantité de RAM consommée par chaque solution afin d'en faire un benchmark. La solution nécessitant le moins de RAM sera donc la plus intéressante pour ce sous-facteur. Un outil tel que htop permet de faire ce genre de mesure. 
+
+ - Métrique 2 : Qualité générale du code
+En vue d'utiliser une solution technique facilement maintenable et adaptable, nous réaliserons un benchmark sur la qualité globale des implémentation des solutions. Nous pourrons ainsi mesurer la complexité moyenne du code ainsi que la longueur moyenne des fonctions... Pour cela nous pourrons utiliser des outils comme flake8 pour python ou CheckStyle pour Java.
+
+ - Métrique 3 : Nombre de tweets traités par seconde
+Dans l'optique de choisir la solution technique offrant la meilleure efficacité, nous mesurerons le temps moyen nécessaire au traitement de tweets par les différentes solutions sur une même machine, afin d'obtenir des mesures comparables. Ceci nous permettra donc de calculer le nombre de tweets pouvant être traités par seconde en fonction des logiciels selectionnés. Celui offrant le meilleur taux sera le plus intéressant pour ce sous-facteur. 
 
 ### B5. Découpage (WBS) pour réalisation des prototypes
 découpage en tâches (Work Breakdown Structure) montrant comment vous allez parvenir à réaliser cinq prototypes.
