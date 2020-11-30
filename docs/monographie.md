@@ -389,6 +389,17 @@ Le framework se compose principalement des modules suivants:
 
 Hadoop fractionne les fichiers en gros blocs et les distribue à travers les nœuds du cluster. Pour traiter les données, il transfère le code à chaque nœud et chaque nœud traite les données dont il dispose. Cela permet de traiter l'ensemble des données plus rapidement et plus efficacement que dans des architectures plus classiques, qui reposent principalement sur un système de fichiers parallèles où les calculs et les données sont distribués via les réseaux à grande vitesse.
 
+#### Hive
+
+Apache Hive est une infrastructure d’entrepôt de données intégrée sur Hadoop permettant l'analyse, le requêtage (via un langage se rapprochant syntaxiquement de SQL, HiveQL), ainsi que la synthèse de données.
+
+Apache Hive traduit les programmes rédigés en langage HiveQL en une ou plusieurs tâches Java MapReduce, Tez ou Spark (trois moteurs d’exécution pouvant être lancés sur Hadoop YARN). Par la suite, Hive organise les données en tableau pour le fichier Hadoop Distributed File System (HDFS) et exécute les tâches sur un cluster pour produire une réponse.
+Les tableaux Apache Hive sont similaires à ceux d’une base de données relationnelle, et les unités de données sont rangées de la plus vaste à la plus granulaire. Les bases de données sont constituées de tableaux composés de partitions, pouvant à nouveau être décomposées en “buckets”. Au sein de chaque base de données, les données sont numérotées et chaque tableau correspond à un répertoire HDFS.
+
+
+De multiples interfaces sont disponibles au sein de l’architecture d’Apache Hive. Le serveur Apache Hive Thrift permet aux clients distants de soumettre des commandes et des requêtes à Apache Hive en utilisant divers langages de programmation. Le moteur permettant le fonctionnement de Hive est le pilote. Il regroupe un compilateur, un optimisateur pour déterminer le meilleur plan d’exécution, et un exécuteur.
+
+
 #### Storm
 
 Storm est un moteur Java de traitement de flux distribué, open source depuis son acquisition par Twitter. Storm gère les données sous formes de tuples. La strcuture de ces tuples étant dynamique, il n'y a pas besoin de déclarer explicitement la structure d'une donnée, les évolutions sont ainsi simplifiées. STorm permet le traitement de données en temps réel.
