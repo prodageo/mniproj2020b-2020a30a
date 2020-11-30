@@ -99,7 +99,16 @@ BigData; DataAnalysis; Tweet; MachineLearning; Traitement; Stockage; TextMining;
   * Chapter 8    Example Applications => Social Media Analytics
 
 - <strong>Sentiment Analysis: Mining Opinions, Sentiments, and Emotions</strong> -  Bing Liu - 2015
-  * Chapters  3–9  
+  * Chapters  3–9
+  
+  
+Critères de choix :
+
+- Publications assez récentes (moins de 10 ans)
+- Ouvrages orientés sur l'utisation indistrielle du big data
+- Auteurs légitimes (professeur reconnus ou chercheurs)
+
+
 
 
 ### A4. Acteurs
