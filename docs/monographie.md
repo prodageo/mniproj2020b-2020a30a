@@ -376,6 +376,19 @@ Flink est assez tolérant au niveau des "pannes". En effet, il permet d'éviter 
 
 ![Flink checkpoints](https://boontadata.github.io/static/img/flink/flink-6.png)
 
+#### Hadoop
+
+ Hadoop est un framework libre et open source écrit en Java et créé en 2009. Il a pour but de faciliter la création d’applications distribuées et le stockage de données sous un mode colonne. Il permet aux applications de travailler, déployer des traitements sur l’ensemble des nœuds d'un cluster, manipulant ainsi une quantité importante de données (allant jusqu’au pétaoctet). Chaque nœud est constitué de machines standard regroupées en grappe. Tous les modules de Hadoop sont conçus selon l'idée que les pannes matérielles sont fréquentes et qu'en conséquence elles doivent être gérées automatiquement par le framework.
+
+Le framework se compose principalement des modules suivants:
+
+- **Hadoop Distributed File System (HDFS)** : un système de fichiers distribués qui permet de stocker de très gros volumes de données sur un grand nombre de machines équipées de matériel de base.
+- **Hadoop Common**: il contient les bibliothèques et les utilitaires nécessaires aux autres modules Hadoop.
+- **Hadoop YARN (Yet Another Resource Negociator)** : une plateforme permettant de gérer les ressources informatiques du cluster et de les utiliser pour la planification des applications des utilisateurs.
+- **Hadoop MapReduce** : permet un traitement de la donnée à grande échelle et ainsi la création simple d’applications traitant de grandes quantités de données en parallèle sur de gros clusters de manière fiable et tolérante aux pannes.
+
+Hadoop fractionne les fichiers en gros blocs et les distribue à travers les nœuds du cluster. Pour traiter les données, il transfère le code à chaque nœud et chaque nœud traite les données dont il dispose. Cela permet de traiter l'ensemble des données plus rapidement et plus efficacement que dans des architectures plus classiques, qui reposent principalement sur un système de fichiers parallèles où les calculs et les données sont distribués via les réseaux à grande vitesse.
+
 #### Storm
 
 Storm est un moteur Java de traitement de flux distribué, open source depuis son acquisition par Twitter. Storm gère les données sous formes de tuples. La strcuture de ces tuples étant dynamique, il n'y a pas besoin de déclarer explicitement la structure d'une donnée, les évolutions sont ainsi simplifiées. STorm permet le traitement de données en temps réel.
