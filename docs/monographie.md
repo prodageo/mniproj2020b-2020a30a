@@ -500,6 +500,11 @@ liste de métriques permettant de comparer (benchmarker) les solutions choisies 
 
 découpage en tâches (Work Breakdown Structure) montrant comment vous allez parvenir à réaliser cinq prototypes.
 
+<p align="center">
+<img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/WBS.png" width="400">
+</p>
+<p align="center">WBS</p>
+
 ## Partie C
 
 ### C1. Architecture solution W
