@@ -376,7 +376,7 @@ Flink est assez tolérant au niveau des "pannes". En effet, il permet d'éviter 
 
 #### Hadoop
 
- Hadoop est un framework libre et open source écrit en Java et créé en 2009. Il a pour but de faciliter la création d’applications distribuées et le stockage de données sous un mode colonne. Il permet aux applications de travailler, déployer des traitements sur l’ensemble des nœuds d'un cluster, manipulant ainsi une quantité importante de données (allant jusqu’au pétaoctet). Chaque nœud est constitué de machines standard regroupées en grappe. Tous les modules de Hadoop sont conçus selon l'idée que les pannes matérielles sont fréquentes et qu'en conséquence elles doivent être gérées automatiquement par le framework.
+ Hadoop est un framework libre et open source écrit en Java. Il a pour but de faciliter la création d’applications distribuées et le stockage de données sous un mode colonne. Il permet aux applications de travailler, déployer des traitements sur l’ensemble des nœuds d'un cluster, manipulant ainsi une quantité importante de données (allant jusqu’au pétaoctet). Chaque nœud est constitué de machines standard regroupées en grappe. Tous les modules de Hadoop sont conçus selon l'idée que les pannes matérielles sont fréquentes et qu'en conséquence elles doivent être gérées automatiquement par le framework.
 
 Le framework se compose principalement des modules suivants:
 
