@@ -454,6 +454,8 @@ Comme on peut le voir sur le graphe ci-dessus, Spark SQL contient Catalyst Optim
 
 Description technique des solutions choisies (V W X Y Z). Pour chaque solution retenue (une solution par équipe de l’alliance), indiquer l’équipe qui prend en charge et fournir une description technique synthétique.
 
+  Pour la description technique synthétique veuillez vous référer au partie B1 et B2
+
   - <strong> E11 - Blue-Bird </strong>  : Kafka + Spark
     - Poulain, Thomas (tpoulain)
     - Prieur, Maxime (Todaime)
@@ -464,7 +466,7 @@ Description technique des solutions choisies (V W X Y Z). Pour chaque solution r
     - Lefebvre, Clément (clefebvre01)
     - Michelet, Adrien (Adrien-Michelet)
     
-  - <strong> E14 - Troisième équipe </strong>  : ..
+  - <strong> E14 - Troisième équipe </strong>  : Kafka + Hive
     - Germain, Louis (lgermainINSA)
     - Lenoir, Louis (Loulen)
     - Zeghib, Amin (Sklaer)
@@ -478,6 +480,8 @@ Description technique des solutions choisies (V W X Y Z). Pour chaque solution r
     - Chan, Justin (jchanUML)
     - Cleret, Luc (luccleret)
     - Mazari, Pierre (pizza59)
+  
+  
 
 ### B4. Liste de métriques
 
