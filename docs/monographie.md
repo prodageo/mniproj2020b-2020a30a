@@ -12,7 +12,7 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
   - <strong> E11 - Blue-Bird </strong>
     - Poulain, Thomas (tpoulain)
     - Prieur, Maxime (Todaime)
-    - Quarez, Etienne (equarez)
+    - Quarez, Etienne (Tyneor)
   - <strong> E12 - Brocoli-Carottes </strong>
     - Godey, Maël (MaelGodey)
     - Lefebvre, Clément (clefebvre01)
