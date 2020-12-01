@@ -357,11 +357,6 @@ Il comprend cinq APIs de base :
 
 liste des solutions technologiques concurrentes mettant en œuvre une des approches techniques (de manière plus ou moins explicite), et parmi cette liste, le choix de deux solutions technologies Y et Z pour prototypage. Pour les solutions choisies, assurez-vous que vous êtes bien en mesure de les mettre en œuvre (prérequis accessibles, licences d’évaluation disponibles en cas de modèle payant, …).
 
-- hadoop => Zoé
-- hive (solution implémentée par le groupe E02) => Zoé
-- flink => David
-- storm => David
-
 #### Flink
 
 Flink est un moteur de traitement des flux de données open source développé par Apache. Les applications Flink peuvent être développé en Java, Python, Scala ou SQL et seront compilées pour tourner dans une VM Java. Flink est fait pour tourner sur des grappes d'appareils et traiter des flux de données à très haute vitesse, avec une latence faible. Les difféntes tâches/opérations peuvent être parallisées et distubuées, ce qui rend cette technologie très scalable. Globalement l'écosystème Flink est assez étendu, ce qui donne accès aux applications de machine learning, de graphe, etc
