@@ -456,12 +456,12 @@ Comme on peut le voir sur le graphe ci-dessus, Spark SQL contient Catalyst Optim
 
 Description technique des solutions choisies (V W X Y Z). Pour chaque solution retenue (une solution par équipe de l’alliance), indiquer l’équipe qui prend en charge et fournir une description technique synthétique.
 
-  - <strong> E11 - Blue-Bird </strong>  : ..
+  - <strong> E11 - Blue-Bird </strong>  : Kafka + Spark
     - Poulain, Thomas (tpoulain)
     - Prieur, Maxime (Todaime)
     - Quarez, Etienne (Tyneor)
     
-  - <strong> E12 - Brocoli-Carottes </strong>  : ..
+  - <strong> E12 - Brocoli-Carottes </strong>  : Hadoop
     - Godey, Maël (MaelGodey)
     - Lefebvre, Clément (clefebvre01)
     - Michelet, Adrien (Adrien-Michelet)
@@ -471,12 +471,12 @@ Description technique des solutions choisies (V W X Y Z). Pour chaque solution r
     - Lenoir, Louis (Loulen)
     - Zeghib, Amin (Sklaer)
     
-  - <strong> E02 - CasimentPasDIdee </strong>  : ..
+  - <strong> E02 - CasimentPasDIdee </strong>  : Hive
     - Abecassis, Zoé (zabecassis)
     - Lesseure, Cassandre (cleseurre)
     - Quéré, David (DavidQuere)
     
-  - <strong> E01 - JuPiLu </strong>  : ..
+  - <strong> E01 - JuPiLu </strong>  : Kafka + Storm
     - Chan, Justin (jchanUML)
     - Cleret, Luc (luccleret)
     - Mazari, Pierre (pizza59)
