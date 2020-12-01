@@ -184,8 +184,6 @@ Ce pattern peut être implémenté grâce à plusieurs frameworks tels que akka 
 
 Chaque acteur peut-être associé à une unité de traitement, indépendante des autres. L’utilisation du framework permet une utilisation plus simple car il gère seul la durée de vie et de mort des acteurs et cela à la fin d’une tâche ou quand une erreur se produit.
 
-Dans “Clean architecture” de Robert Martin, on trouve un catalogue de design patterns de Big Data. On y trouve différents patterns en adéquation avec notre sujet :
-
 #### Exception :
 
 Ce pattern permet notamment une meilleure prévision des exceptions dans le code. De plus, il instaure un système de logs pour plus de facilité à gérer les anomalies.
