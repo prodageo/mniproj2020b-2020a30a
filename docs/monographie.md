@@ -471,7 +471,7 @@ Description technique des solutions choisies (V W X Y Z). Pour chaque solution r
     - Lenoir, Louis (Loulen)
     - Zeghib, Amin (Sklaer)
     
-  - <strong> E02 - CasimentPasDIdee </strong>  : Hive
+  - <strong> E02 - CasimentPasDIdee </strong>  : Hadoop + Hive
     - Abecassis, Zoé (zabecassis)
     - Lesseure, Cassandre (cleseurre)
     - Quéré, David (DavidQuere)
