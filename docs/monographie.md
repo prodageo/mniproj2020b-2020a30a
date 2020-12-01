@@ -454,7 +454,32 @@ Comme on peut le voir sur le graphe ci-dessus, Spark SQL contient Catalyst Optim
 
 ### B3. Solutions retenues
 
-description technique des solutions choisies (X et Y). Pour chaque solution retenue (une solution par équipe de l’alliance), indiquer l’équipe qui prend en charge et fournir une description technique synthétique.
+Description technique des solutions choisies (V W X Y Z). Pour chaque solution retenue (une solution par équipe de l’alliance), indiquer l’équipe qui prend en charge et fournir une description technique synthétique.
+
+  - <strong> E11 - Blue-Bird </strong>  : ..
+    - Poulain, Thomas (tpoulain)
+    - Prieur, Maxime (Todaime)
+    - Quarez, Etienne (Tyneor)
+    
+  - <strong> E12 - Brocoli-Carottes </strong>  : ..
+    - Godey, Maël (MaelGodey)
+    - Lefebvre, Clément (clefebvre01)
+    - Michelet, Adrien (Adrien-Michelet)
+    
+  - <strong> E14 - Troisième équipe </strong>  : ..
+    - Germain, Louis (lgermainINSA)
+    - Lenoir, Louis (Loulen)
+    - Zeghib, Amin (Sklaer)
+    
+  - <strong> E02 - CasimentPasDIdee </strong>  : ..
+    - Abecassis, Zoé (zabecassis)
+    - Lesseure, Cassandre (cleseurre)
+    - Quéré, David (DavidQuere)
+    
+  - <strong> E01 - JuPiLu </strong>  : ..
+    - Chan, Justin (jchanUML)
+    - Cleret, Luc (luccleret)
+    - Mazari, Pierre (pizza59)
 
 ### B4. Liste de métriques
 
