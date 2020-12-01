@@ -80,15 +80,15 @@ BigData; DataAnalysis; Tweet; MachineLearning; Traitement; Stockage; TextMining;
 
 #### 1. Architecture
 
-- <strong>https://big-data.developpez.com/tutoriels/apprendre-faire-choix-architecture-big-data/</strong> Site Developpez.com, Présentation des enjeux du Big Data et de ses acteurs, présentation des architectures et solutions disponibles.
+- <strong>https://big-data.developpez.com/tutoriels/apprendre-faire-choix-architecture-big-data/</strong> Site Developpez.com, Présentation des enjeux du Big Data et de ses acteurs, présentation des architectures et solutions disponibles | *consulté le : 05/11/2020*
 
 #### 2. Guides Python pour Twitter
 
-- <strong>https://www.kdnuggets.com/2016/06/mining-twitter-data-python-part-1.html</strong> Site Kdnuggets.com, Tutoriel Python pour : CollectionData, Text Pre-Processing, Term Frequencies, Term Co-occurrences, Data Visualisation Basics
+- <strong>https://www.kdnuggets.com/2016/06/mining-twitter-data-python-part-1.html</strong> Site Kdnuggets.com, Tutoriel Python pour : CollectionData, Text Pre-Processing, Term Frequencies, Term Co-occurrences, Data Visualisation Basics | *consulté le : 05/11/2020*
 
 #### 3. Tutoriels d'analyse de Tweets
 
-- <strong>https://www.tandfonline.com/doi/full/10.1080/23311916.2018.1534519?fbclid=IwAR2Zd6HcyGqEiKcBaNubOsAv8NZ_cyWZO3hVYkPMqO-lIIDuj9PVuJaa9-A&</strong>, Tutoriel d’analyse de tweets avec Hadoop
+- <strong>https://www.tandfonline.com/doi/full/10.1080/23311916.2018.1534519?fbclid=IwAR2Zd6HcyGqEiKcBaNubOsAv8NZ_cyWZO3hVYkPMqO-lIIDuj9PVuJaa9-A&</strong>, Tutoriel d’analyse de tweets avec Hadoop | *consulté le : 05/11/2020*
 
 ### A3. Bibliographie
 
