@@ -528,3 +528,5 @@ https://medium.com/@OpcitoTechnologies/building-a-real-time-data-pipeline-using-
 https://towardsdatascience.com/how-to-embed-a-spark-ml-model-as-a-kafka-real-time-streaming-application-for-production-deployment-933aecb79f3f, Déploiement d'un modèle d'analyse en temps réel avec Spark et Kafka, *consulté le : 08/12/2020*
 
 https://spark.apache.org/docs/2.2.0/streaming-programming-guide.html Guide pour la programmation de traitement de flot de données avec Spark, *consulté le : 08/12/2020*
+
+https://spark.apache.org/docs/2.1.0/streaming-kafka-0-8-integration.html
