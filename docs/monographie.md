@@ -499,10 +499,22 @@ découpage en tâches (Work Breakdown Structure) montrant comment vous allez par
 
 ## Partie C
 
-### C1. Architecture solution W
+### C1. Architecture solution V - Kafka & Spark Streaming
 
-### C2. Architecture solution X
+<strong>Équipe en charge : </strong> E11 - Blue-Bird
 
-### C3. Architecture solution Y
+### C2. Architecture solution W
 
-### C4. Architecture solution Z
+<strong>Équipe en charge : </strong>
+
+### C3. Architecture solution X
+
+<strong>Équipe en charge : </strong>
+
+### C4. Architecture solution Y
+
+<strong>Équipe en charge : </strong>
+
+### C5. Architecture solution Z
+
+<strong>Équipe en charge : </strong>
