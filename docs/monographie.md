@@ -451,7 +451,7 @@ Description technique des solutions choisies (V W X Y Z). Pour chaque solution r
 
   Pour la description technique synthétique veuillez vous référer au partie B1 et B2
 
-  - <strong> E11 - Blue-Bird </strong>  : Kafka + Spark ou seulement Kafka
+  - <strong> E11 - Blue-Bird </strong>  : Kafka + Spark ou HDFS + Spark
     - Poulain, Thomas (tpoulain)
     - Prieur, Maxime (Todaime)
     - Quarez, Etienne (Tyneor)
@@ -499,7 +499,7 @@ découpage en tâches (Work Breakdown Structure) montrant comment vous allez par
 
 ## Partie C
 
-### C1. Architecture solution V - Kafka & Spark Streaming ou seulement Kafka
+### C1. Architecture solution V - Kafka & Spark Streaming ou HDFS + Spark
 
 <strong>Équipe en charge : </strong> E11 - Blue-Bird
 
