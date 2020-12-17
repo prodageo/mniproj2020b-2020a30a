@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="616px" preserveAspectRatio="none" style="width:1032px;height:616px;" version="1.1" viewBox="0 0 1032 616" width="1032px" zoomAndPan="magnify"><defs><filter height="300%" id="f1g62gn7ry56x7" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[abd3e6cdfeabe7c1d97f83d4c3aa348a]
+cluster TE--><polygon fill="#FFFFFF" filter="url(#f1g62gn7ry56x7)" points="22,24.5,210,24.5,217,46.7969,220,46.7969,220,250.5,22,250.5,22,24.5" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="217" y1="46.7969" y2="46.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="182" x="26" y="39.4951">Twitter environnement</text><!--MD5=[b258293a4310f1864287870e0762f2af]
+cluster SE--><polygon fill="#FFFFFF" filter="url(#f1g62gn7ry56x7)" points="244,159,420,159,427,181.2969,642,181.2969,642,459,244,459,244,159" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="244" x2="427" y1="181.2969" y2="181.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="170" x="248" y="173.9951">Spark environnement</text><!--MD5=[f1656fa2a395a703e5e082199d1cab54]
+cluster TG--><polygon fill="#FFFFFF" filter="url(#f1g62gn7ry56x7)" points="666,148,759,148,766,170.2969,792,170.2969,792,257,666,257,666,148" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="666" x2="766" y1="170.2969" y2="170.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="87" x="670" y="162.9951">Application</text><!--MD5=[06e174bd320ab9d3f6668e6558f2966a]
+cluster HE--><polygon fill="#FFFFFF" filter="url(#f1g62gn7ry56x7)" points="677,281,849,281,856,303.2969,1010,303.2969,1010,604,677,604,677,281" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="677" x2="856" y1="303.2969" y2="303.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="166" x="681" y="295.9951">HDFS environnement</text><!--MD5=[ebe57c7d9ba0ea1eaa63b5c4056507f9]
+cluster HDFS--><path d="M709,342 C709,332 843.5,332 843.5,332 C843.5,332 978,332 978,342 L978,562 C978,572 843.5,572 843.5,572 C843.5,572 709,572 709,562 L709,342 " fill="#FFFFFF" filter="url(#f1g62gn7ry56x7)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M709,342 C709,352 843.5,352 843.5,352 C843.5,352 978,352 978,342 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="41" x="823" y="366.9951">HDFS</text><!--MD5=[42b99b53b4d9d55a18213ad2e07455ee]
+entity TwitterDataBase--><path d="M70,199.5 C70,189.5 137,189.5 137,189.5 C137,189.5 204,189.5 204,199.5 L204,224.7969 C204,234.7969 137,234.7969 137,234.7969 C137,234.7969 70,234.7969 70,224.7969 L70,199.5 " fill="#FEFECE" filter="url(#f1g62gn7ry56x7)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M70,199.5 C70,209.5 137,209.5 137,209.5 C137,209.5 204,209.5 204,199.5 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="114" x="80" y="226.4951">TwitterDataBase</text><!--MD5=[714d56ea9064f9ee317fcc680bac5d79]
+entity TwitterRestAPI--><path d="M82.5127,67.7097 C86.7251,62.6902 90.7484,62.0615 94.0214,68.6417 C96.8259,62.1065 101.2272,61.8372 105.7852,66.8564 C109.2747,61.7315 112.7849,63.1167 115.8612,67.3035 C119.0161,61.3097 123.6949,59.6732 128.7409,65.1869 C132.3853,60.2765 135.8439,59.9559 140.1505,64.3772 C143.3027,60.1156 148.2286,60.8084 150.2834,65.6048 C153.5768,60.1939 159.7474,60.6217 162.8434,65.8382 C166.697,60.8968 170.5084,61.6921 173.1015,67.089 C178.0457,61.624 181.944,62.062 185.7441,68.3225 C188.7751,63.1042 193.5313,62.9371 196.1563,68.7072 C205.4824,71.1269 206.7352,77.1859 201.1727,84.3731 C206.3197,90.4426 204.1988,97.2507 196.1147,98.6242 C193.0861,104.868 189.074,104.7321 184.6278,100.125 C182.7501,106.8939 177.3701,107.3984 173.2225,102.3079 C170.7442,109.1828 165.904,110.548 161.0318,104.5804 C158.1192,109.5646 154.7446,109.8355 150.8755,105.6385 C148.7275,112.523 143.7107,113.2238 139.1484,107.9714 C134.7866,112.1725 131.4515,111.6997 128.2642,106.5974 C123.1942,110.5876 119.2144,111.2211 116.46,104.1306 C111.7875,109.7586 106.4154,107.7698 104.0441,101.6901 C100.5011,106.1398 97.0999,106.5201 93.3645,101.917 C88.1861,106.7133 82.7914,105.0868 81.9177,97.8292 C74.2972,94.1835 74.6134,87.2313 81.3729,83.0553 C75.2099,77.9501 74.3977,71.7544 82.5127,67.7097 " fill="#FEFECE" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="100" x="88" y="87.4951">TwitterRestAPI</text><!--MD5=[f72bcae257f1a5dec9f24b2133f90a1c]
+entity SparkContext--><rect fill="#FEFECE" filter="url(#f1g62gn7ry56x7)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="113" x="260.5" y="194"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="255.5" y="199"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="255.5" y="220.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="93" x="270.5" y="216.9951">SparkContext</text><!--MD5=[d04648e85a9b10e4576b2636e86a7d55]
+entity Filter--><path d="M413.5,199 L456.5,199 C461.5,199 461.5,212.1484 461.5,212.1484 C461.5,212.1484 461.5,225.2969 456.5,225.2969 L413.5,225.2969 C408.5,225.2969 408.5,212.1484 408.5,212.1484 C408.5,212.1484 408.5,199 413.5,199 " fill="#FEFECE" filter="url(#f1g62gn7ry56x7)" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M456.5,199 C451.5,199 451.5,212.1484 451.5,212.1484 C451.5,225.2969 456.5,225.2969 456.5,225.2969 " fill="none" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="413.5" y="216.9951">Filter</text><!--MD5=[26180a46133a97df38b11adbdadd62ae]
+entity ClusterManager--><rect fill="#FEFECE" filter="url(#f1g62gn7ry56x7)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="129" x="496.5" y="194"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="491.5" y="199"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="491.5" y="220.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="506.5" y="216.9951">ClusterManager</text><!--MD5=[7a1b5d849ed40d82cacd8d7f81f0bdd6]
+entity Workers--><rect fill="#FEFECE" filter="url(#f1g62gn7ry56x7)" height="56.5938" style="stroke: #000000; stroke-width: 1.5;" width="223" x="402.5" y="386"/><rect fill="#FEFECE" height="56.5938" style="stroke: #000000; stroke-width: 1.5;" width="223" x="398.5" y="382"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="67" x="406.5" y="402.9951">Workers</text><line style="stroke: #000000; stroke-width: 1.0;" x1="399.5" x2="624.5" y1="406.2969" y2="406.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="195" x="412.5" y="423.292">«Execution environnement»</text><!--MD5=[6e8f311b0aa23032184ffba0ef926f91]
+entity App--><ellipse cx="729" cy="212" fill="#FEFECE" filter="url(#f1g62gn7ry56x7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="689.5" y="241.9951">Display app</text><!--MD5=[c616bf29fb6443ecede506e117416073]
+entity Storage1--><path d="M752.5,400 C752.5,390 794,390 794,390 C794,390 835.5,390 835.5,400 L835.5,425.2969 C835.5,435.2969 794,435.2969 794,435.2969 C794,435.2969 752.5,435.2969 752.5,425.2969 L752.5,400 " fill="#FEFECE" filter="url(#f1g62gn7ry56x7)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M752.5,400 C752.5,410 794,410 794,410 C794,410 835.5,410 835.5,400 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="63" x="762.5" y="426.9951">Storage1</text><!--MD5=[0f0f253602fc593949ebe69cea392f92]
+entity Storage2--><path d="M870.5,400 C870.5,390 912,390 912,390 C912,390 953.5,390 953.5,400 L953.5,425.2969 C953.5,435.2969 912,435.2969 912,435.2969 C912,435.2969 870.5,435.2969 870.5,425.2969 L870.5,400 " fill="#FEFECE" filter="url(#f1g62gn7ry56x7)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M870.5,400 C870.5,410 912,410 912,410 C912,410 953.5,410 953.5,400 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="63" x="880.5" y="426.9951">Storage2</text><!--MD5=[4c8cdd21253a3b570d0857fec24482a3]
+entity Storage3--><path d="M751.5,513 C751.5,503 793,503 793,503 C793,503 834.5,503 834.5,513 L834.5,538.2969 C834.5,548.2969 793,548.2969 793,548.2969 C793,548.2969 751.5,548.2969 751.5,538.2969 L751.5,513 " fill="#FEFECE" filter="url(#f1g62gn7ry56x7)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M751.5,513 C751.5,523 793,523 793,523 C793,523 834.5,523 834.5,513 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="63" x="761.5" y="539.9951">Storage3</text><!--MD5=[5ed4643ef1519b43a04476d3e496ef33]
+entity StorageN--><path d="M870,513 C870,503 912,503 912,503 C912,503 954,503 954,513 L954,538.2969 C954,548.2969 912,548.2969 912,548.2969 C912,548.2969 870,548.2969 870,538.2969 L870,513 " fill="#FEFECE" filter="url(#f1g62gn7ry56x7)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M870,513 C870,523 912,523 912,523 C912,523 954,523 954,513 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="64" x="880" y="539.9951">StorageN</text><!--MD5=[ec70028d126092261a27fb7f8528c352]
+entity fbab--><ellipse cx="729" cy="51.5" fill="#FEFECE" filter="url(#f1g62gn7ry56x7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M729,59.5 L729,86.5 M716,67.5 L742,67.5 M729,86.5 L716,101.5 M729,86.5 L742,101.5 " fill="none" filter="url(#f1g62gn7ry56x7)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="30" x="714" y="119.9951">fbab</text><!--MD5=[fdbe5cb03496c3eaaf4ca6f88ffb16e6]
+link TwitterRestAPI to TwitterDataBase--><path d="M137.83,105.71 C137.65,127.6 137.39,161.06 137.21,184.37 " fill="none" id="TwitterRestAPI-&gt;TwitterDataBase" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="137.17,189.47,141.2214,180.493,137.1986,184.4701,133.2215,180.4473,137.17,189.47" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[534c4b17644ddbeb3297a1b0c970d050]
+link SparkContext to Filter--><path d="M373.7,212 C383.48,212 393.27,212 403.06,212 " fill="none" id="SparkContext-&gt;Filter" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="408.18,212,399.18,208,403.18,212,399.18,216,408.18,212" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ce090d62d44fb6d988ba3ed863af6b38]
+link Filter to ClusterManager--><path d="M461.58,212 C471.39,212 481.2,212 491.01,212 " fill="none" id="Filter-&gt;ClusterManager" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="496.14,212,487.14,208,491.14,212,487.14,216,496.14,212" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e63913c1ce8ec016c590bb8b579504b1]
+link ClusterManager to Workers--><path d="M556.74,230.27 C549.16,260.96 533.15,325.82 522.48,369.04 " fill="none" id="ClusterManager-&gt;Workers" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="519.36,381.69,524.6815,376.8237,522.2363,370.0398,516.9147,374.9061,519.36,381.69" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ba16d83a9ad2d9039acfba69a06438c4]
+link App to HDFS--><path d="M728.51,221.03 C727.405,239.305 724.6,285.7325 722.0362,328.1725 C721.9962,328.8356 721.9562,329.4978 721.9163,330.1588 C721.8963,330.4894 721.8763,330.8196 721.8564,331.1496 " fill="none" id="App-&gt;HDFS" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="721.8564,331.1496,726.3918,322.4071,722.1579,326.1587,718.4064,321.9248,721.8564,331.1496" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b8f5d80f9121ebc4b77d04e10529d97d]
+link Workers to HDFS--><path d="M625.71,412.5 C640.805,412.5 655.9,412.5 670.9963,412.5 C678.5444,412.5 686.0928,412.5 693.6417,412.5 C697.4162,412.5 701.1907,412.5 704.9654,412.5 C705.9091,412.5 706.8528,412.5 707.7965,412.5 C708.0324,412.5 708.2684,412.5 708.5043,412.5 C708.6222,412.5 708.7402,412.5 708.8582,412.5 " fill="none" id="Workers-&gt;HDFS" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="708.8582,412.5,699.8582,408.5,703.8582,412.5,699.8582,416.5,708.8582,412.5" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[28f09aefeb77eab1bd22f89cdb0d7e74]
+reverse link TwitterRestAPI to SparkContext--><path d="M174.8,108.53 C188.99,118.26 205.31,129.57 220,140 C245.52,158.13 274.44,179.39 294.01,193.89 " fill="none" id="TwitterRestAPI&lt;-SparkContext" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="170.47,105.56,175.6338,113.9466,174.5948,108.386,180.1554,107.3469,170.47,105.56" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[91715696bbd36825c4682e4e829fb0e5]
+link fbab to App--><path d="M729,123.14 C729,148.36 729,179.49 729,197.11 " fill="none" id="fbab-&gt;App" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="729,202.54,733,193.54,729,197.54,725,193.54,729,202.54" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[24e3c6a5cc447b51166a07e581319afe]
+link Storage1 to Storage2--><!--MD5=[ff4fb8d82e98c7e556f28474a2daeb0a]
+link Storage1 to Storage3--><!--MD5=[b4f62367c68502f8cfe523c20bdca376]
+link Storage3 to StorageN--><!--MD5=[d3a3bf23a9926cc91c42bca02ae1bf3b]
+@startuml Architecture globale
+
+package "Twitter environnement" as TE {
+    database TwitterDataBase
+
+    cloud TwitterRestAPI
+
+    TwitterRestAPI - -> TwitterDataBase
+}
+
+package "Spark environnement" as SE {
+    component SparkContext
+    queue Filter
+    component ClusterManager
+    SparkContext -> Filter
+    Filter -> ClusterManager
+    collections Workers [
+        **Workers**
+        - - - -
+        <<Execution environnement>>
+    ]
+    ClusterManager - -* Workers
+}
+
+package "Application" as TG{
+    interface "Display app" as App
+}
+
+App - -> HDFS
+
+package "HDFS environnement" as HE {
+    database HDFS {
+        database Storage1
+        database Storage2
+        database Storage3
+        database StorageN
+    }
+}
+
+Workers -> HDFS
+
+TwitterRestAPI <- - SparkContext
+
+actor fbab
+fbab - -> App
+
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 11:35:57 CEST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_265-b01
+Operating System: Linux
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg>
