@@ -505,11 +505,15 @@ découpage en tâches (Work Breakdown Structure) montrant comment vous allez par
 
 ### C2. Architecture solution W - Hadoop & Hive
 
-<strong>Équipe en charge : CasimentPasDidée </strong>
+<strong>Équipe en charge : CasimentPasDIdée </strong>
 
 L'architecture à mettre en place est la suivante :
 
-file:///home/zoe/T%C3%A9l%C3%A9chargements/CASI_HADOOP_HIVE.png
+<p align="center">
+<img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/CASI_HADOOP_HIVE.png" width="600">
+</p>
+<p align="center">Architecture Hadoop Hive</p>
+
 
 ### C3. Architecture solution X
 
