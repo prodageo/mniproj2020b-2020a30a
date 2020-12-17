@@ -528,7 +528,11 @@ L'architecture à mettre en place est la suivante :
 
 ### C4. Architecture solution Y
 
-<strong>Équipe en charge : </strong>
+<strong>Équipe en charge : Troisième Equipe </strong>  
+
+<img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/conception_z.png" height="500">
+</p>
+<p align="center">Architecture Kafka+Hive</p>
 
 ### C5. Architecture solution Z
 
