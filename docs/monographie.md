@@ -519,6 +519,13 @@ L'architecture à mettre en place est la suivante :
 
 <strong>Équipe en charge : E12 - Brocoli-Carottes</strong>
 
+L'architecture à mettre en place est la suivante :
+
+<p align="center">
+<img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/Architecture_globale.svg" width="600">
+</p>
+<p align="center">Architecture globale</p>
+
 ### C4. Architecture solution Y
 
 <strong>Équipe en charge : </strong>
