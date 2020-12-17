@@ -536,7 +536,11 @@ L'architecture à mettre en place est la suivante :
 
 ### C5. Architecture solution Z
 
-<strong>Équipe en charge : </strong>
+<strong>Équipe en charge : E01 - JuPiLu</strong>
+
+<img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/Architecture_E01.png">
+</p>
+<p align="center">Architecture Kafka + Storm</p>
 
 ### Webographie
 
