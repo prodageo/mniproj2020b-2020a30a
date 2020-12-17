@@ -503,9 +503,13 @@ découpage en tâches (Work Breakdown Structure) montrant comment vous allez par
 
 <strong>Équipe en charge : </strong> E11 - Blue-Bird
 
-### C2. Architecture solution W
+### C2. Architecture solution W - Hadoop & Hive
 
-<strong>Équipe en charge : </strong>
+<strong>Équipe en charge : CasimentPasDidée </strong>
+
+L'architecture à mettre en place est la suivante :
+
+file:///home/zoe/T%C3%A9l%C3%A9chargements/CASI_HADOOP_HIVE.png
 
 ### C3. Architecture solution X
 
