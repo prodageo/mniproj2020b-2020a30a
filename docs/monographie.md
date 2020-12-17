@@ -456,7 +456,7 @@ Description technique des solutions choisies (V W X Y Z). Pour chaque solution r
     - Prieur, Maxime (Todaime)
     - Quarez, Etienne (Tyneor)
     
-  - <strong> E12 - Brocoli-Carottes </strong>  : Hadoop
+  - <strong> E12 - Brocoli-Carottes </strong>  : YARN + HDFS + Spark
     - Godey, Maël (MaelGodey)
     - Lefebvre, Clément (clefebvre01)
     - Michelet, Adrien (Adrien-Michelet)
@@ -515,9 +515,9 @@ L'architecture à mettre en place est la suivante :
 <p align="center">Architecture Hadoop Hive</p>
 
 
-### C3. Architecture solution X
+### C3. Architecture solution X - YARN + HDFS + Spark
 
-<strong>Équipe en charge : </strong>
+<strong>Équipe en charge : E12 - Brocoli-Carottes</strong>
 
 ### C4. Architecture solution Y
 
