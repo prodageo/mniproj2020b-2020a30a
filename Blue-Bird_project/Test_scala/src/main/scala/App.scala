@@ -23,14 +23,18 @@ object App{
       if (subj_word=="weaksubj"){
         if (polarity=="negative"){
           return -1
+        };if (polarity=="positive"){
+          return 1
         }
-        return 1
+        return 0
       };
       if (subj_word=="strongsubj"){
         if (polarity=="positive"){
           return 2
+        };if (polarity=="negative"){
+          return -2
         }
-        return -2
+        return 0
       }
     }
     return 0
@@ -38,7 +42,11 @@ object App{
 
   def process_polarity(text: String):Integer={
     var sum = 0
-    var words = text.split(' ').foreach(sum+=get_polarity(_))
+    var words = text
+      .toLowerCase()
+      .replace("'|-|:|.|,|!", " ")
+      .split(' ')
+      .foreach(sum+=get_polarity(_))
     return sum
   }
 
