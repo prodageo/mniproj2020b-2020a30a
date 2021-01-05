@@ -503,6 +503,14 @@ découpage en tâches (Work Breakdown Structure) montrant comment vous allez par
 
 <strong>Équipe en charge : </strong> E11 - Blue-Bird
 
+L'architecture à mettre en place est la suivante :
+
+<p align="center">
+<img src="https://github.com/prodageo/mniproj2020b-2020a30a/blob/master/docs/img/Blue-Bird-Architecture.png" width="600">
+</p>
+<p align="center">Architecture Hadoop Hive</p>
+
+
 ### C2. Architecture solution W - Hadoop & Hive
 
 <strong>Équipe en charge : CasimentPasDIdée </strong>
