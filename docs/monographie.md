@@ -36,7 +36,7 @@ consigne: http://prodageo.insa-rouen.fr/casimono/sujetprojmd/consignes.html
 
 Ces dernières années, l'explosion quantitative des données numériques a contraint la communauté scientifique à repenser la manière dont l'être humain analyse celles-ci.
 Il s'agit de mettre en place de nouveaux outils permettant la capture, la recherche, le partage, le stockage, l’analyse et la présentation rapide de données.
-Ces méthodes sont désigné par le terme <em>Big Data</em>.
+Ces méthodes sont désignées par le terme <em>Big Data</em>.
 
 L'objectif du projet est de mettre en place une architecture, à l'aide de technologies de la famille du <em>Big Data</em>, permettant l'analyse rapide d'un gros volume de données en flux continu semi-structuré.
 Le flux que nous analyserons est un flux de tweets de jeunes diplomés dont il faudra déterminer la tendance, positive ou négative.
