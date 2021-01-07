@@ -44,13 +44,25 @@ object App{
     var sum = 0
     var words = text
       .toLowerCase()
-      .replace("'|-|:|.|,|!", " ")
+      .replaceAll("'|-|:|\\.|,|!|#|\\?", " ")
       .split(' ')
       .foreach(sum+=get_polarity(_))
     return sum
   }
 
+  def process_polarity_per_word(text: String):String={
+    return text
+      .toLowerCase()
+      //.replace("'|-|:|.|,|!", " ")
+      .replaceAll("'|-|:|\\.|,|!|#|\\?", " ")
+      .split(' ')
+      .map(get_polarity)
+      .mkString("+")
+  }
+
   def main(args: Array[String]): Unit = {
+    System.setProperty("hadoop.home.dir", "C:\\winutils")
+
     val spark = SparkSession.builder()
       .master("local[3]")
       .appName("SparkByExample")
@@ -66,19 +78,36 @@ object App{
 
     val df = spark.readStream
       .schema(schema)
-      .json("../stream_folder")
-
+      .json("./stream_folder")
     df.printSchema()
-    val groupDF = df.select("text").
-      map(row => row.getString(0)+ " POLARITY : "+process_polarity(row.getString(0))).
-      toDF("Text + Polarity")
-    groupDF.printSchema()
-    groupDF.writeStream
-      .format("console")
-      .outputMode("append")
-      .option("truncate", "false")
-      .option("numRows", 100)
-      .start()             // Start the computation
-      .awaitTermination()
+
+
+    val t1 = System.nanoTime
+
+    var details = false
+    if (details) {
+      val groupDF = df.select("text").
+        map(row => (row.getString(0), process_polarity(row.getString(0)), process_polarity_per_word(row.getString(0)))).
+        toDF("Text", "Polarity", "Polarity per word")
+
+      groupDF.writeStream
+        .format("console")
+        .outputMode("append")
+        .option("truncate", "false")
+        .start()             // Start the computation
+        .awaitTermination()
+    } else {
+      val avgDF = df.select("text")
+        .map(row => (process_polarity(row.getString(0))))
+        .toDF("Polarity")
+        .select(avg("Polarity"))
+
+      avgDF.writeStream
+        .format("console")
+        .outputMode("complete")
+        .option("truncate", "false")
+        .start()             // Start the computation
+        .awaitTermination()
+    }
   }
 }
