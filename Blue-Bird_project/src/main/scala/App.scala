@@ -44,7 +44,7 @@ object App{
     var sum = 0
     var words = text
       .toLowerCase()
-      .replaceAll("'|-|:|.|,|!|#", " ")
+      .replaceAll("'|-|:|\\.|,|!|#|\\?", " ")
       .split(' ')
       .foreach(sum+=get_polarity(_))
     return sum
