@@ -100,7 +100,7 @@ object App{
       val avgDF = df.select("text")
         .map(row => (process_polarity(row.getString(0))))
         .toDF("Polarity")
-        .select(avg("Polarity"))
+        .select(avg("Polarity"), count("Polarity"))
 
       avgDF.writeStream
         .format("console")
